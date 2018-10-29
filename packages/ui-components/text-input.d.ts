@@ -62,7 +62,7 @@ export declare type BaseProps = TextInputProps & HTMLInputElementProps;
 export declare class StatefulTextInput<ExcludedProps extends keyof BaseProps = never> extends React.Component<Omit<BaseProps, ExcludedProps>> {
     static defaultProps: Partial<TextInputProps>;
     readonly state: {
-        value: React.ReactText;
+        value: string | number;
     };
     onValueChange: (event: React.KeyboardEvent<HTMLInputElement>) => void;
     render(): JSX.Element;
