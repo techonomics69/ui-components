@@ -17156,7 +17156,7 @@ exports[`Storyshots Text Area Basic 1`] = `
   <textarea
     disabled={false}
     id="textarea-basic"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17193,7 +17193,7 @@ exports[`Storyshots Text Area Disabled 1`] = `
   <textarea
     disabled={true}
     id="textarea-disabled"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17230,7 +17230,7 @@ exports[`Storyshots Text Area Error 1`] = `
   <textarea
     disabled={false}
     id="textarea-error"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17267,7 +17267,7 @@ exports[`Storyshots Text Area Information Message 1`] = `
   <textarea
     disabled={false}
     id="textarea-info"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17310,7 +17310,7 @@ exports[`Storyshots Text Area Required 1`] = `
   <textarea
     disabled={false}
     id="textarea-required"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17347,7 +17347,7 @@ exports[`Storyshots Text Area Scrollable 1`] = `
   <textarea
     disabled={false}
     id="textarea-scrollable"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
@@ -17384,7 +17384,7 @@ exports[`Storyshots Text Area With Tooltip [skip] 1`] = `
   <textarea
     disabled={false}
     id="textarea-tooltip"
-    maxHeight={500}
+    maxHeight={null}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
