@@ -3,6 +3,8 @@ import ReactSelect, { components } from 'react-select';
 import { SelectComponents } from 'react-select/lib/components';
 import { IndicatorProps } from 'react-select/lib/components/indicators';
 import ReactCreateable from 'react-select/lib/Creatable';
+import { Props as ReactSelectProps } from 'react-select/lib/Select';
+import { Styles as ReactSelectStyles } from 'react-select/lib/styles';
 import { CommonProps, InnerRef } from 'react-select/lib/types';
 import Icon from '../icon';
 import mixins from '../styles/global/mixins.scss';
@@ -250,7 +252,18 @@ const DropdownIndicator: React.SFC<
   );
 };
 
-const Select: React.SFC<any> = props => {
+interface SelectProps {
+  disabled?: boolean;
+  error?: boolean;
+  info?: string;
+  label?: string;
+  required?: boolean;
+  tooltip?: string;
+  tooltipDirection?: string;
+  tooltipLength?: string;
+}
+
+const Select: React.SFC<ReactSelectProps<any> & SelectProps> = props => {
   // Override dropdownIndicator styling when tooltip is present
   let dropdownIndicatorStylesOverride;
   if (props.tooltip) {
