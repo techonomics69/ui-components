@@ -1,9 +1,14 @@
 import React from 'react';
-import ReactSelect from 'react-select';
+import ReactSelect, { components } from 'react-select';
+import { SelectComponents } from 'react-select/lib/components';
+import { IndicatorProps } from 'react-select/lib/components/indicators';
 import ReactCreateable from 'react-select/lib/Creatable';
+import { CommonProps, InnerRef } from 'react-select/lib/types';
+import Icon from '../icon';
 import mixins from '../styles/global/mixins.scss';
 import dropDownShadow from '../styles/global/mixins/dropdownShadow.scss';
 import SassVars from '../styles/global/variables.scss';
+import Tooltip from '../tooltip';
 import cn from '../utilities/classnames';
 import Styles from './select.module.scss';
 
@@ -23,6 +28,26 @@ const disabledLabel = (disabled: boolean) =>
         backgroundColor: SassVars['select-disabled-color'],
       }
     : {};
+
+const DropdownIndicatorStyles = (base: object) => {
+  const dropdownIndicator = {
+    padding: 0,
+
+    '&::after': {
+      ...mixins,
+      color: SassVars['slate-60'],
+      content: `${SassVars['icon-caret']}`,
+      position: 'absolute',
+      right: 5,
+    },
+
+    svg: {
+      display: 'none',
+    },
+  };
+
+  return { ...base, ...dropdownIndicator };
+};
 
 const SelectStyles = {
   clearIndicator: (base: object) => {
@@ -80,25 +105,7 @@ const SelectStyles = {
       ...placeholderState,
     };
   },
-  dropdownIndicator: (base: object) => {
-    const dropdownIndicator = {
-      padding: 0,
-
-      '&::after': {
-        ...mixins,
-        color: SassVars['slate-60'],
-        content: `${SassVars['icon-caret']}`,
-        position: 'absolute',
-        right: 5,
-      },
-
-      svg: {
-        display: 'none',
-      },
-    };
-
-    return { ...base, ...dropdownIndicator };
-  },
+  dropdownIndicator: DropdownIndicatorStyles,
   groupHeading: (base: object) => {
     const groupStyle = {
       color: SassVars.slate,
@@ -213,7 +220,33 @@ const SelectStyles = {
     };
   },
 };
+
+const DropdownIndicator: React.SFC<
+  CommonProps<any> & SelectComponents<any> & IndicatorProps<any>
+> = props => {
+  if (!props.selectProps.tooltip) {
+    return <components.DropdownIndicator {...props} />;
+  }
+
+  return (
+    <components.DropdownIndicator {...props}>
+      <Tooltip
+        content={props.selectProps.tooltip}
+        direction={props.selectProps.tooltipDirection}
+      >
+        <Icon type="info-circle" />
+      </Tooltip>
+    </components.DropdownIndicator>
+  );
+};
+
 const Select: React.SFC<any> = props => {
+  // Override dropdownIndicator styling when tooltip is present
+  let dropdownIndicatorStylesOverride;
+  if (props.tooltip) {
+    dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+  }
+
   return (
     <div
       className={cn('input-select-wrap', Styles['input-select-wrap'], {
@@ -234,7 +267,12 @@ const Select: React.SFC<any> = props => {
       )}
       <ReactSelect
         {...props}
-        styles={{ ...SelectStyles, ...props.styles }}
+        components={{ DropdownIndicator }}
+        styles={{
+          ...SelectStyles,
+          ...props.styles,
+          ...dropdownIndicatorStylesOverride,
+        }}
         isDisabled={props.disabled}
       />
       {props.info && (
@@ -254,6 +292,12 @@ const Select: React.SFC<any> = props => {
 };
 
 const Createable: React.SFC<any> = props => {
+  // Override dropdownIndicator styling when tooltip is present
+  let dropdownIndicatorStylesOverride;
+  if (props.tooltip) {
+    dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+  }
+
   return (
     <div
       className={cn('input-select-wrap', Styles['input-select-wrap'], {
@@ -274,7 +318,12 @@ const Createable: React.SFC<any> = props => {
       )}
       <ReactCreateable
         {...props}
-        styles={{ ...SelectStyles, ...props.styles }}
+        components={{ DropdownIndicator }}
+        styles={{
+          ...SelectStyles,
+          ...props.styles,
+          ...dropdownIndicatorStylesOverride,
+        }}
         isDisabled={props.disabled}
       />
       {props.info && (

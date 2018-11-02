@@ -45,6 +45,17 @@ stories.add('With placeholder', () => (
   </div>
 ));
 
+stories.add('With tooltip', () => (
+  <div className="input-select-wrap">
+    <Select
+      options={feels}
+      placeholder="Goobers"
+      tooltip="Great stuff!"
+      tooltipDirection="left"
+    />
+  </div>
+));
+
 stories.add('Disabled', () => (
   <div className="input-select-wrap is-disabled">
     <Select defaultValue={feels[7]} disabled options={feels} />
@@ -103,6 +114,18 @@ stories.add('Tagging - open', () => (
       options={powerups}
       value={[powerups[0], powerups[1], { label: 'row', value: 'row' }]}
       menuIsOpen
+    />
+  </div>
+));
+
+stories.add('Tagging - tooltip', () => (
+  <div className="input-select-wrap">
+    <Createable
+      isMulti
+      options={powerups}
+      value={[powerups[0], powerups[1], { label: 'row', value: 'row' }]}
+      tooltip="Much Power"
+      tooltipDirection="down"
     />
   </div>
 ));

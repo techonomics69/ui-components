@@ -10480,21 +10480,13 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
           id="select-a"
           onKeyDown={[Function]}
         >
-          <span
-            aria-atomic="true"
-            aria-live="polite"
-            className="css-1uvvha"
-            role="status"
-          >
-            1 result available.
-          </span>
           <div
             className="css-18rrerb"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <div
-              className="css-vkq1bj"
+              className="css-1m8oe7c"
             >
               <div
                 className="css-pka8w3"
@@ -10502,7 +10494,7 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                 Select...
               </div>
               <div
-                className="css-rsyb7x"
+                className="css-1g6gooi"
               >
                 <div
                   className=""
@@ -10513,25 +10505,18 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                   }
                 >
                   <input
-                    aria-activedescendant={undefined}
                     aria-autocomplete="list"
-                    aria-busy={false}
-                    aria-describedby={undefined}
-                    aria-expanded={false}
-                    aria-haspopup={false}
                     aria-label={undefined}
                     aria-labelledby={undefined}
-                    aria-owns={undefined}
                     autoCapitalize="none"
                     autoComplete="off"
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-25-input"
+                    id="react-select-27-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
-                    role="combobox"
                     spellCheck="false"
                     style={
                       Object {
@@ -10573,19 +10558,18 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
             >
               <span
                 className="css-0"
-                role="presentation"
               />
               <div
+                aria-hidden="true"
                 className="css-7afory"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
-                role="button"
               >
                 <svg
+                  aria-hidden="true"
                   className="css-19bqh2r"
                   focusable="false"
                   height={20}
-                  role="presentation"
                   viewBox="0 0 20 20"
                   width={20}
                 >
@@ -10616,21 +10600,13 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
           id="select-b"
           onKeyDown={[Function]}
         >
-          <span
-            aria-atomic="true"
-            aria-live="polite"
-            className="css-1uvvha"
-            role="status"
-          >
-            1 result available.
-          </span>
           <div
             className="css-18rrerb"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <div
-              className="css-vkq1bj"
+              className="css-1m8oe7c"
             >
               <div
                 className="css-pka8w3"
@@ -10638,7 +10614,7 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                 Select...
               </div>
               <div
-                className="css-rsyb7x"
+                className="css-1g6gooi"
               >
                 <div
                   className=""
@@ -10649,25 +10625,18 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                   }
                 >
                   <input
-                    aria-activedescendant={undefined}
                     aria-autocomplete="list"
-                    aria-busy={false}
-                    aria-describedby={undefined}
-                    aria-expanded={false}
-                    aria-haspopup={false}
                     aria-label={undefined}
                     aria-labelledby={undefined}
-                    aria-owns={undefined}
                     autoCapitalize="none"
                     autoComplete="off"
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-26-input"
+                    id="react-select-28-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
-                    role="combobox"
                     spellCheck="false"
                     style={
                       Object {
@@ -10709,19 +10678,18 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
             >
               <span
                 className="css-0"
-                role="presentation"
               />
               <div
+                aria-hidden="true"
                 className="css-7afory"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
-                role="button"
               >
                 <svg
+                  aria-hidden="true"
                   className="css-19bqh2r"
                   focusable="false"
                   height={20}
-                  role="presentation"
                   viewBox="0 0 20 20"
                   width={20}
                 >
@@ -10803,21 +10771,13 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
           id="select-a"
           onKeyDown={[Function]}
         >
-          <span
-            aria-atomic="true"
-            aria-live="polite"
-            className="css-1uvvha"
-            role="status"
-          >
-            1 result available.
-          </span>
           <div
             className="css-1bhqczi"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <div
-              className="css-vkq1bj"
+              className="css-1m8oe7c"
             >
               <div
                 className="css-1v8euj5"
@@ -10825,7 +10785,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                 the first time a contact
               </div>
               <div
-                className="css-rsyb7x"
+                className="css-1g6gooi"
               >
                 <div
                   className=""
@@ -10836,25 +10796,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                   }
                 >
                   <input
-                    aria-activedescendant={undefined}
                     aria-autocomplete="list"
-                    aria-busy={false}
-                    aria-describedby={undefined}
-                    aria-expanded={false}
-                    aria-haspopup={false}
                     aria-label={undefined}
                     aria-labelledby={undefined}
-                    aria-owns={undefined}
                     autoCapitalize="none"
                     autoComplete="off"
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-27-input"
+                    id="react-select-29-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
-                    role="combobox"
                     spellCheck="false"
                     style={
                       Object {
@@ -10896,19 +10849,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
             >
               <span
                 className="css-0"
-                role="presentation"
               />
               <div
+                aria-hidden="true"
                 className="css-7afory"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
-                role="button"
               >
                 <svg
+                  aria-hidden="true"
                   className="css-19bqh2r"
                   focusable="false"
                   height={20}
-                  role="presentation"
                   viewBox="0 0 20 20"
                   width={20}
                 >
@@ -10939,21 +10891,13 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
           id="select-b"
           onKeyDown={[Function]}
         >
-          <span
-            aria-atomic="true"
-            aria-live="polite"
-            className="css-1uvvha"
-            role="status"
-          >
-            1 result available.
-          </span>
           <div
             className="css-18rrerb"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <div
-              className="css-vkq1bj"
+              className="css-1m8oe7c"
             >
               <div
                 className="css-pka8w3"
@@ -10961,7 +10905,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                 Select...
               </div>
               <div
-                className="css-rsyb7x"
+                className="css-1g6gooi"
               >
                 <div
                   className=""
@@ -10972,25 +10916,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                   }
                 >
                   <input
-                    aria-activedescendant={undefined}
                     aria-autocomplete="list"
-                    aria-busy={false}
-                    aria-describedby={undefined}
-                    aria-expanded={false}
-                    aria-haspopup={false}
                     aria-label={undefined}
                     aria-labelledby={undefined}
-                    aria-owns={undefined}
                     autoCapitalize="none"
                     autoComplete="off"
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-28-input"
+                    id="react-select-30-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
-                    role="combobox"
                     spellCheck="false"
                     style={
                       Object {
@@ -11032,19 +10969,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
             >
               <span
                 className="css-0"
-                role="presentation"
               />
               <div
+                aria-hidden="true"
                 className="css-7afory"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
-                role="button"
               >
                 <svg
+                  aria-hidden="true"
                   className="css-19bqh2r"
                   focusable="false"
                   height={20}
-                  role="presentation"
                   viewBox="0 0 20 20"
                   width={20}
                 >
@@ -11069,21 +11005,13 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
           id="select-c"
           onKeyDown={[Function]}
         >
-          <span
-            aria-atomic="true"
-            aria-live="polite"
-            className="css-1uvvha"
-            role="status"
-          >
-            1 result available.
-          </span>
           <div
             className="css-18rrerb"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <div
-              className="css-vkq1bj"
+              className="css-1m8oe7c"
             >
               <div
                 className="css-pka8w3"
@@ -11091,7 +11019,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                 Select...
               </div>
               <div
-                className="css-rsyb7x"
+                className="css-1g6gooi"
               >
                 <div
                   className=""
@@ -11102,25 +11030,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                   }
                 >
                   <input
-                    aria-activedescendant={undefined}
                     aria-autocomplete="list"
-                    aria-busy={false}
-                    aria-describedby={undefined}
-                    aria-expanded={false}
-                    aria-haspopup={false}
                     aria-label={undefined}
                     aria-labelledby={undefined}
-                    aria-owns={undefined}
                     autoCapitalize="none"
                     autoComplete="off"
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-29-input"
+                    id="react-select-31-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
-                    role="combobox"
                     spellCheck="false"
                     style={
                       Object {
@@ -11162,19 +11083,18 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
             >
               <span
                 className="css-0"
-                role="presentation"
               />
               <div
+                aria-hidden="true"
                 className="css-7afory"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
-                role="button"
               >
                 <svg
+                  aria-hidden="true"
                   className="css-19bqh2r"
                   focusable="false"
                   height={20}
-                  role="presentation"
                   viewBox="0 0 20 20"
                   width={20}
                 >
@@ -11456,21 +11376,13 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
               id="select-a"
               onKeyDown={[Function]}
             >
-              <span
-                aria-atomic="true"
-                aria-live="polite"
-                className="css-1uvvha"
-                role="status"
-              >
-                1 result available.
-              </span>
               <div
                 className="css-1bhqczi"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
               >
                 <div
-                  className="css-vkq1bj"
+                  className="css-1m8oe7c"
                 >
                   <div
                     className="css-1v8euj5"
@@ -11478,7 +11390,7 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                     The first time a contact
                   </div>
                   <div
-                    className="css-rsyb7x"
+                    className="css-1g6gooi"
                   >
                     <div
                       className=""
@@ -11489,25 +11401,18 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                       }
                     >
                       <input
-                        aria-activedescendant={undefined}
                         aria-autocomplete="list"
-                        aria-busy={false}
-                        aria-describedby={undefined}
-                        aria-expanded={false}
-                        aria-haspopup={false}
                         aria-label={undefined}
                         aria-labelledby={undefined}
-                        aria-owns={undefined}
                         autoCapitalize="none"
                         autoComplete="off"
                         autoCorrect="off"
                         className={undefined}
                         disabled={false}
-                        id="react-select-23-input"
+                        id="react-select-25-input"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
-                        role="combobox"
                         spellCheck="false"
                         style={
                           Object {
@@ -11549,19 +11454,18 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                 >
                   <span
                     className="css-0"
-                    role="presentation"
                   />
                   <div
+                    aria-hidden="true"
                     className="css-7afory"
                     onMouseDown={[Function]}
                     onTouchEnd={[Function]}
-                    role="button"
                   >
                     <svg
+                      aria-hidden="true"
                       className="css-19bqh2r"
                       focusable="false"
                       height={20}
-                      role="presentation"
                       viewBox="0 0 20 20"
                       width={20}
                     >
@@ -11592,21 +11496,13 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
               id="select-b"
               onKeyDown={[Function]}
             >
-              <span
-                aria-atomic="true"
-                aria-live="polite"
-                className="css-1uvvha"
-                role="status"
-              >
-                1 result available.
-              </span>
               <div
                 className="css-1bhqczi"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
               >
                 <div
-                  className="css-vkq1bj"
+                  className="css-1m8oe7c"
                 >
                   <div
                     className="css-1v8euj5"
@@ -11614,7 +11510,7 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                     Abandons a cart
                   </div>
                   <div
-                    className="css-rsyb7x"
+                    className="css-1g6gooi"
                   >
                     <div
                       className=""
@@ -11625,25 +11521,18 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                       }
                     >
                       <input
-                        aria-activedescendant={undefined}
                         aria-autocomplete="list"
-                        aria-busy={false}
-                        aria-describedby={undefined}
-                        aria-expanded={false}
-                        aria-haspopup={false}
                         aria-label={undefined}
                         aria-labelledby={undefined}
-                        aria-owns={undefined}
                         autoCapitalize="none"
                         autoComplete="off"
                         autoCorrect="off"
                         className={undefined}
                         disabled={false}
-                        id="react-select-24-input"
+                        id="react-select-26-input"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
-                        role="combobox"
                         spellCheck="false"
                         style={
                           Object {
@@ -11685,19 +11574,18 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                 >
                   <span
                     className="css-0"
-                    role="presentation"
                   />
                   <div
+                    aria-hidden="true"
                     className="css-7afory"
                     onMouseDown={[Function]}
                     onTouchEnd={[Function]}
-                    role="button"
                   >
                     <svg
+                      aria-hidden="true"
                       className="css-19bqh2r"
                       focusable="false"
                       height={20}
-                      role="presentation"
                       viewBox="0 0 20 20"
                       width={20}
                     >
@@ -11768,14 +11656,6 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="my-control-wrapper"
     >
@@ -11783,12 +11663,12 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
         My amazing select!
       </p>
       <div
-        className="css-1aya2g8"
+        className="css-vj8t7z"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-1rtrksz"
+          className="css-1hwfws3"
         >
           <div
             className="css-1492t68"
@@ -11796,7 +11676,7 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
             Select...
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -11807,25 +11687,18 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-14-input"
+                id="react-select-16-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -11867,19 +11740,18 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
         >
           <span
             className="css-d8oujb"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-1ep9fjw"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -11907,21 +11779,13 @@ exports[`Storyshots Select Disabled 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        8 results available.
-      </span>
       <div
         className="css-bcrqx"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-1v8euj5"
@@ -11929,7 +11793,7 @@ exports[`Storyshots Select Disabled 1`] = `
             Extraordinary
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -11940,25 +11804,18 @@ exports[`Storyshots Select Disabled 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={true}
-                id="react-select-5-input"
+                id="react-select-6-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -12000,19 +11857,18 @@ exports[`Storyshots Select Disabled 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12040,21 +11896,13 @@ exports[`Storyshots Select Multi select - no values 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        7 results available.
-      </span>
       <div
         className="css-18rrerb"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-pka8w3"
@@ -12062,7 +11910,7 @@ exports[`Storyshots Select Multi select - no values 1`] = `
             Select...
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -12073,25 +11921,18 @@ exports[`Storyshots Select Multi select - no values 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-7-input"
+                id="react-select-8-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -12133,19 +11974,18 @@ exports[`Storyshots Select Multi select - no values 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12173,27 +12013,19 @@ exports[`Storyshots Select Multi select - open 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        5 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Mushroom
             </div>
@@ -12201,12 +12033,13 @@ exports[`Storyshots Select Multi select - open 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -12220,7 +12053,7 @@ exports[`Storyshots Select Multi select - open 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Fire flower
             </div>
@@ -12228,12 +12061,13 @@ exports[`Storyshots Select Multi select - open 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -12244,7 +12078,7 @@ exports[`Storyshots Select Multi select - open 1`] = `
             </div>
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -12255,25 +12089,18 @@ exports[`Storyshots Select Multi select - open 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={true}
-                aria-haspopup={true}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns="react-select-9-listbox"
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-9-input"
+                id="react-select-10-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -12314,16 +12141,16 @@ exports[`Storyshots Select Multi select - open 1`] = `
           className="css-1wy0on6"
         >
           <div
+            aria-hidden="true"
             className="css-1hyfx7x"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12334,19 +12161,18 @@ exports[`Storyshots Select Multi select - open 1`] = `
           </div>
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12357,78 +12183,68 @@ exports[`Storyshots Select Multi select - open 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        className="css-1wcxi4x"
+        onMouseDown={[Function]}
+        onMouseMove={[Function]}
+      >
         <div
-          className="css-1wcxi4x"
-          onMouseDown={[Function]}
-          onMouseMove={[Function]}
+          className="css-11unzgr"
         >
           <div
-            aria-multiselectable={true}
-            className="css-11unzgr"
-            id="react-select-9-listbox"
-            role="listbox"
+            className="css-1f1tals"
+            id="react-select-10-option-2"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
           >
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-9-option-2"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Star
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-9-option-3"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Feather
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-9-option-4"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Frog
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-9-option-5"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Tanooki
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-9-option-6"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              1-up
-            </div>
+            Star
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-10-option-3"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Feather
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-10-option-4"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Frog
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-10-option-5"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Tanooki
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-10-option-6"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            1-up
           </div>
         </div>
       </div>
@@ -12449,27 +12265,19 @@ exports[`Storyshots Select Multi select 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        5 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Mushroom
             </div>
@@ -12477,12 +12285,13 @@ exports[`Storyshots Select Multi select 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -12496,7 +12305,7 @@ exports[`Storyshots Select Multi select 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Fire flower
             </div>
@@ -12504,12 +12313,13 @@ exports[`Storyshots Select Multi select 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -12520,7 +12330,7 @@ exports[`Storyshots Select Multi select 1`] = `
             </div>
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -12531,25 +12341,18 @@ exports[`Storyshots Select Multi select 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-8-input"
+                id="react-select-9-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -12590,16 +12393,16 @@ exports[`Storyshots Select Multi select 1`] = `
           className="css-1wy0on6"
         >
           <div
+            aria-hidden="true"
             className="css-1hyfx7x"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12610,19 +12413,18 @@ exports[`Storyshots Select Multi select 1`] = `
           </div>
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12650,21 +12452,13 @@ exports[`Storyshots Select Option groups - open 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        15 results available.
-      </span>
       <div
         className="css-18rrerb"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-pka8w3"
@@ -12672,7 +12466,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
             Feels vs. Powerups
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -12683,25 +12477,18 @@ exports[`Storyshots Select Option groups - open 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={true}
-                aria-haspopup={true}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns="react-select-13-listbox"
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-13-input"
+                id="react-select-15-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -12743,19 +12530,18 @@ exports[`Storyshots Select Option groups - open 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -12766,226 +12552,200 @@ exports[`Storyshots Select Option groups - open 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        className="css-1wcxi4x"
+        onMouseDown={[Function]}
+        onMouseMove={[Function]}
+      >
         <div
-          className="css-1wcxi4x"
-          onMouseDown={[Function]}
-          onMouseMove={[Function]}
+          className="css-11unzgr"
         >
           <div
-            aria-multiselectable={false}
-            className="css-11unzgr"
-            id="react-select-13-listbox"
-            role="listbox"
+            className="css-1s9izoc"
           >
             <div
-              aria-expanded={true}
-              aria-labelledby="react-select-13-group-0-heading"
-              className="css-1s9izoc"
-              role="group"
+              className="css-1ub2vtp"
+              id="react-select-15-group-0-heading"
             >
+              Feels
+            </div>
+            <div>
               <div
-                className="css-1ub2vtp"
-                id="react-select-13-group-0-heading"
+                className="css-1f1tals"
+                id="react-select-15-option-0-0"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
               >
-                Feels
+                Double plus ungood
               </div>
-              <div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-0"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Double plus ungood
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-1"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Good
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-2"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Great
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-3"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Grand
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-4"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Fantastic
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-5"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Superb
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-6"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Stupendous
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-0-7"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Extraordinary
-                </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-1"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Good
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-2"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Great
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-3"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Grand
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-4"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Fantastic
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-5"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Superb
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-6"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Stupendous
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-0-7"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Extraordinary
               </div>
             </div>
+          </div>
+          <div
+            className="css-1s9izoc"
+          >
             <div
-              aria-expanded={true}
-              aria-labelledby="react-select-13-group-1-heading"
-              className="css-1s9izoc"
-              role="group"
+              className="css-1ub2vtp"
+              id="react-select-15-group-1-heading"
             >
+              Powerups
+            </div>
+            <div>
               <div
-                className="css-1ub2vtp"
-                id="react-select-13-group-1-heading"
+                className="css-1f1tals"
+                id="react-select-15-option-1-0"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
               >
-                Powerups
+                Mushroom
               </div>
-              <div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-0"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Mushroom
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-1"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Fire flower
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-2"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Star
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-3"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Feather
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-4"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Frog
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-5"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  Tanooki
-                </div>
-                <div
-                  aria-selected={false}
-                  className="css-1f1tals"
-                  id="react-select-13-option-1-6"
-                  onClick={[Function]}
-                  onMouseMove={[Function]}
-                  onMouseOver={[Function]}
-                  role="option"
-                  tabIndex={-1}
-                >
-                  1-up
-                </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-1"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Fire flower
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-2"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Star
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-3"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Feather
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-4"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Frog
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-5"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                Tanooki
+              </div>
+              <div
+                className="css-1f1tals"
+                id="react-select-15-option-1-6"
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onMouseOver={[Function]}
+                role="option"
+                tabIndex={-1}
+              >
+                1-up
               </div>
             </div>
           </div>
@@ -13013,21 +12773,13 @@ exports[`Storyshots Select Option groups 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        15 results available.
-      </span>
       <div
         className="css-18rrerb"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-pka8w3"
@@ -13035,7 +12787,7 @@ exports[`Storyshots Select Option groups 1`] = `
             Feels vs. Powerups
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -13046,25 +12798,18 @@ exports[`Storyshots Select Option groups 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-12-input"
+                id="react-select-14-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -13106,19 +12851,18 @@ exports[`Storyshots Select Option groups 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13151,21 +12895,13 @@ exports[`Storyshots Select Searchable 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        8 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-1v8euj5"
@@ -13173,7 +12909,7 @@ exports[`Storyshots Select Searchable 1`] = `
             Good
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -13184,25 +12920,18 @@ exports[`Storyshots Select Searchable 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-6-input"
+                id="react-select-7-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -13244,19 +12973,18 @@ exports[`Storyshots Select Searchable 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13284,21 +13012,13 @@ exports[`Storyshots Select Standard 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        8 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-1v8euj5"
@@ -13306,7 +13026,7 @@ exports[`Storyshots Select Standard 1`] = `
             Good
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -13317,15 +13037,9 @@ exports[`Storyshots Select Standard 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
@@ -13335,7 +13049,6 @@ exports[`Storyshots Select Standard 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -13377,19 +13090,18 @@ exports[`Storyshots Select Standard 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13422,21 +13134,13 @@ exports[`Storyshots Select Standard open 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        8 results available.
-      </span>
       <div
         className="css-18rrerb"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-pka8w3"
@@ -13444,7 +13148,7 @@ exports[`Storyshots Select Standard open 1`] = `
             Goobers
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -13455,15 +13159,9 @@ exports[`Storyshots Select Standard open 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={true}
-                aria-haspopup={true}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns="react-select-3-listbox"
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
@@ -13473,7 +13171,6 @@ exports[`Storyshots Select Standard open 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -13515,19 +13212,18 @@ exports[`Storyshots Select Standard open 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13538,114 +13234,101 @@ exports[`Storyshots Select Standard open 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        className="css-1wcxi4x"
+        onMouseDown={[Function]}
+        onMouseMove={[Function]}
+      >
         <div
-          className="css-1wcxi4x"
-          onMouseDown={[Function]}
-          onMouseMove={[Function]}
+          className="css-11unzgr"
         >
           <div
-            aria-multiselectable={false}
-            className="css-11unzgr"
-            id="react-select-3-listbox"
-            role="listbox"
+            className="css-1f1tals"
+            id="react-select-3-option-0"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
           >
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-0"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Double plus ungood
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-1"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Good
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-2"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Great
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-3"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Grand
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-4"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Fantastic
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-5"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Superb
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-6"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Stupendous
-            </div>
-            <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-3-option-7"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
-            >
-              Extraordinary
-            </div>
+            Double plus ungood
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-1"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Good
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-2"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Great
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-3"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Grand
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-4"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Fantastic
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-5"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Superb
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-6"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Stupendous
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-3-option-7"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Extraordinary
           </div>
         </div>
       </div>
@@ -13666,27 +13349,19 @@ exports[`Storyshots Select Tagging - open 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        5 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Mushroom
             </div>
@@ -13694,12 +13369,13 @@ exports[`Storyshots Select Tagging - open 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -13713,7 +13389,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Fire flower
             </div>
@@ -13721,12 +13397,13 @@ exports[`Storyshots Select Tagging - open 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -13740,7 +13417,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               row
             </div>
@@ -13748,12 +13425,13 @@ exports[`Storyshots Select Tagging - open 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -13764,7 +13442,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
             </div>
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -13775,25 +13453,18 @@ exports[`Storyshots Select Tagging - open 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={true}
-                aria-haspopup={true}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns="react-select-11-listbox"
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-11-input"
+                id="react-select-12-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -13834,16 +13505,16 @@ exports[`Storyshots Select Tagging - open 1`] = `
           className="css-1wy0on6"
         >
           <div
+            aria-hidden="true"
             className="css-1hyfx7x"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13854,19 +13525,18 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -13877,78 +13547,283 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        className="css-1wcxi4x"
+        onMouseDown={[Function]}
+        onMouseMove={[Function]}
+      >
         <div
-          className="css-1wcxi4x"
-          onMouseDown={[Function]}
-          onMouseMove={[Function]}
+          className="css-11unzgr"
         >
           <div
-            aria-multiselectable={true}
-            className="css-11unzgr"
-            id="react-select-11-listbox"
-            role="listbox"
+            className="css-1f1tals"
+            id="react-select-12-option-2"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Star
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-3"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Feather
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-4"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Frog
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-5"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Tanooki
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-6"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            1-up
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Tagging - tooltip 1`] = `
+<div
+  className="input-select-wrap"
+>
+  <div
+    className="input-select-wrap"
+  >
+    <div
+      className="css-10nd86i"
+      id={undefined}
+      onKeyDown={[Function]}
+    >
+      <div
+        className="css-1bhqczi"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className="css-1m8oe7c"
+        >
+          <div
+            className="css-113lvzv"
           >
             <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-11-option-2"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
+              className="css-erhrr7"
             >
-              Star
+              Mushroom
             </div>
             <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-11-option-3"
+              className="css-duvmhs"
               onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
-              Feather
+              <svg
+                aria-hidden="true"
+                className="css-19bqh2r"
+                focusable="false"
+                height={14}
+                viewBox="0 0 20 20"
+                width={14}
+              >
+                <path
+                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="css-113lvzv"
+          >
+            <div
+              className="css-erhrr7"
+            >
+              Fire flower
             </div>
             <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-11-option-4"
+              className="css-duvmhs"
               onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
-              Frog
+              <svg
+                aria-hidden="true"
+                className="css-19bqh2r"
+                focusable="false"
+                height={14}
+                viewBox="0 0 20 20"
+                width={14}
+              >
+                <path
+                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="css-113lvzv"
+          >
+            <div
+              className="css-erhrr7"
+            >
+              row
             </div>
             <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-11-option-5"
+              className="css-duvmhs"
               onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
-              Tanooki
+              <svg
+                aria-hidden="true"
+                className="css-19bqh2r"
+                focusable="false"
+                height={14}
+                viewBox="0 0 20 20"
+                width={14}
+              >
+                <path
+                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+                />
+              </svg>
             </div>
+          </div>
+          <div
+            className="css-1g6gooi"
+          >
             <div
-              aria-selected={false}
-              className="css-1f1tals"
-              id="react-select-11-option-6"
-              onClick={[Function]}
-              onMouseMove={[Function]}
-              onMouseOver={[Function]}
-              role="option"
-              tabIndex={-1}
+              className=""
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
             >
-              1-up
+              <input
+                aria-autocomplete="list"
+                aria-label={undefined}
+                aria-labelledby={undefined}
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                className={undefined}
+                disabled={false}
+                id="react-select-13-input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                spellCheck="false"
+                style={
+                  Object {
+                    "background": 0,
+                    "border": 0,
+                    "boxSizing": "content-box",
+                    "color": "inherit",
+                    "fontSize": "inherit",
+                    "opacity": 1,
+                    "outline": 0,
+                    "padding": 0,
+                    "width": "1px",
+                  }
+                }
+                tabIndex="0"
+                type="text"
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
             </div>
+          </div>
+        </div>
+        <div
+          className="css-1wy0on6"
+        >
+          <div
+            aria-hidden="true"
+            className="css-1hyfx7x"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <svg
+              aria-hidden="true"
+              className="css-19bqh2r"
+              focusable="false"
+              height={20}
+              viewBox="0 0 20 20"
+              width={20}
+            >
+              <path
+                d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+              />
+            </svg>
+          </div>
+          <span
+            className="css-0"
+          />
+          <div
+            aria-hidden="true"
+            className="css-0"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <span
+              className={undefined}
+              data-tooltip="Much Power"
+              data-tooltip-length={undefined}
+              data-tooltip-pos="down"
+            >
+              <i
+                className="sg-icon sg-icon-info-circle"
+                onClick={undefined}
+                style={null}
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -13969,27 +13844,19 @@ exports[`Storyshots Select Tagging 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        5 results available.
-      </span>
       <div
         className="css-1bhqczi"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Mushroom
             </div>
@@ -13997,12 +13864,13 @@ exports[`Storyshots Select Tagging 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -14016,7 +13884,7 @@ exports[`Storyshots Select Tagging 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               Fire flower
             </div>
@@ -14024,12 +13892,13 @@ exports[`Storyshots Select Tagging 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -14043,7 +13912,7 @@ exports[`Storyshots Select Tagging 1`] = `
             className="css-113lvzv"
           >
             <div
-              className="css-tue0ws"
+              className="css-erhrr7"
             >
               row
             </div>
@@ -14051,12 +13920,13 @@ exports[`Storyshots Select Tagging 1`] = `
               className="css-duvmhs"
               onClick={[Function]}
               onMouseDown={[Function]}
+              onTouchEnd={[Function]}
             >
               <svg
+                aria-hidden="true"
                 className="css-19bqh2r"
                 focusable="false"
                 height={14}
-                role="presentation"
                 viewBox="0 0 20 20"
                 width={14}
               >
@@ -14067,7 +13937,7 @@ exports[`Storyshots Select Tagging 1`] = `
             </div>
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -14078,25 +13948,18 @@ exports[`Storyshots Select Tagging 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-10-input"
+                id="react-select-11-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -14137,16 +14000,16 @@ exports[`Storyshots Select Tagging 1`] = `
           className="css-1wy0on6"
         >
           <div
+            aria-hidden="true"
             className="css-1hyfx7x"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -14157,19 +14020,18 @@ exports[`Storyshots Select Tagging 1`] = `
           </div>
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -14197,21 +14059,13 @@ exports[`Storyshots Select With placeholder 1`] = `
       id={undefined}
       onKeyDown={[Function]}
     >
-      <span
-        aria-atomic="true"
-        aria-live="polite"
-        className="css-1uvvha"
-        role="status"
-      >
-        8 results available.
-      </span>
       <div
         className="css-18rrerb"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className="css-vkq1bj"
+          className="css-1m8oe7c"
         >
           <div
             className="css-pka8w3"
@@ -14219,7 +14073,7 @@ exports[`Storyshots Select With placeholder 1`] = `
             Goobers
           </div>
           <div
-            className="css-rsyb7x"
+            className="css-1g6gooi"
           >
             <div
               className=""
@@ -14230,15 +14084,9 @@ exports[`Storyshots Select With placeholder 1`] = `
               }
             >
               <input
-                aria-activedescendant={undefined}
                 aria-autocomplete="list"
-                aria-busy={false}
-                aria-describedby={undefined}
-                aria-expanded={false}
-                aria-haspopup={false}
                 aria-label={undefined}
                 aria-labelledby={undefined}
-                aria-owns={undefined}
                 autoCapitalize="none"
                 autoComplete="off"
                 autoCorrect="off"
@@ -14248,7 +14096,6 @@ exports[`Storyshots Select With placeholder 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
-                role="combobox"
                 spellCheck="false"
                 style={
                   Object {
@@ -14290,19 +14137,18 @@ exports[`Storyshots Select With placeholder 1`] = `
         >
           <span
             className="css-0"
-            role="presentation"
           />
           <div
+            aria-hidden="true"
             className="css-7afory"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
-            role="button"
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={20}
-              role="presentation"
               viewBox="0 0 20 20"
               width={20}
             >
@@ -14310,6 +14156,123 @@ exports[`Storyshots Select With placeholder 1`] = `
                 d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
               />
             </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select With tooltip 1`] = `
+<div
+  className="input-select-wrap"
+>
+  <div
+    className="input-select-wrap"
+  >
+    <div
+      className="css-10nd86i"
+      id={undefined}
+      onKeyDown={[Function]}
+    >
+      <div
+        className="css-18rrerb"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className="css-1m8oe7c"
+        >
+          <div
+            className="css-pka8w3"
+          >
+            Goobers
+          </div>
+          <div
+            className="css-1g6gooi"
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <input
+                aria-autocomplete="list"
+                aria-label={undefined}
+                aria-labelledby={undefined}
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                className={undefined}
+                disabled={false}
+                id="react-select-5-input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                spellCheck="false"
+                style={
+                  Object {
+                    "background": 0,
+                    "border": 0,
+                    "boxSizing": "content-box",
+                    "color": "inherit",
+                    "fontSize": "inherit",
+                    "opacity": 1,
+                    "outline": 0,
+                    "padding": 0,
+                    "width": "1px",
+                  }
+                }
+                tabIndex="0"
+                type="text"
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1wy0on6"
+        >
+          <span
+            className="css-0"
+          />
+          <div
+            aria-hidden="true"
+            className="css-0"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <span
+              className={undefined}
+              data-tooltip="Great stuff!"
+              data-tooltip-length={undefined}
+              data-tooltip-pos="left"
+            >
+              <i
+                className="sg-icon sg-icon-info-circle"
+                onClick={undefined}
+                style={null}
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -14332,21 +14295,13 @@ exports[`Storyshots Select/Label + Info disabled + error 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-vqbbd0"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -14354,7 +14309,7 @@ exports[`Storyshots Select/Label + Info disabled + error 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -14365,25 +14320,18 @@ exports[`Storyshots Select/Label + Info disabled + error 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-19-input"
+              id="react-select-21-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -14425,19 +14373,18 @@ exports[`Storyshots Select/Label + Info disabled + error 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -14471,27 +14418,19 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      6 results available.
-    </span>
     <div
       className="css-bcrqx"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-1wvqrm2"
         >
           <div
-            className="css-8lpupn"
+            className="css-11a1ixy"
           >
             Mushroom
           </div>
@@ -14499,12 +14438,13 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
             className="css-ae68b3"
             onClick={[Function]}
             onMouseDown={[Function]}
+            onTouchEnd={[Function]}
           >
             <svg
+              aria-hidden="true"
               className="css-19bqh2r"
               focusable="false"
               height={14}
-              role="presentation"
               viewBox="0 0 20 20"
               width={14}
             >
@@ -14515,7 +14455,7 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
           </div>
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -14526,25 +14466,18 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-18-input"
+              id="react-select-20-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -14586,19 +14519,18 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -14632,21 +14564,13 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-bcrqx"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-1v8euj5"
@@ -14654,7 +14578,7 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue 1`] = `
           Mushroom
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -14665,25 +14589,18 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-17-input"
+              id="react-select-19-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -14725,19 +14642,18 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -14771,21 +14687,13 @@ exports[`Storyshots Select/Label + Info disabled 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-14mtm9n"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -14793,7 +14701,7 @@ exports[`Storyshots Select/Label + Info disabled 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -14804,25 +14712,18 @@ exports[`Storyshots Select/Label + Info disabled 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-16-input"
+              id="react-select-18-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -14864,19 +14765,18 @@ exports[`Storyshots Select/Label + Info disabled 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -14910,21 +14810,13 @@ exports[`Storyshots Select/Label + Info error 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-6qcrv1"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -14932,7 +14824,7 @@ exports[`Storyshots Select/Label + Info error 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -14943,25 +14835,18 @@ exports[`Storyshots Select/Label + Info error 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-15-input"
+              id="react-select-17-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -15003,19 +14888,18 @@ exports[`Storyshots Select/Label + Info error 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -15044,21 +14928,13 @@ exports[`Storyshots Select/Label + Info info 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-18rrerb"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -15066,7 +14942,7 @@ exports[`Storyshots Select/Label + Info info 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -15077,25 +14953,18 @@ exports[`Storyshots Select/Label + Info info 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-22-input"
+              id="react-select-24-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -15137,19 +15006,18 @@ exports[`Storyshots Select/Label + Info info 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -15183,21 +15051,13 @@ exports[`Storyshots Select/Label + Info label - required 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-18rrerb"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -15205,7 +15065,7 @@ exports[`Storyshots Select/Label + Info label - required 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -15216,25 +15076,18 @@ exports[`Storyshots Select/Label + Info label - required 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-21-input"
+              id="react-select-23-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -15276,19 +15129,18 @@ exports[`Storyshots Select/Label + Info label - required 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
@@ -15322,21 +15174,13 @@ exports[`Storyshots Select/Label + Info label 1`] = `
     id={undefined}
     onKeyDown={[Function]}
   >
-    <span
-      aria-atomic="true"
-      aria-live="polite"
-      className="css-1uvvha"
-      role="status"
-    >
-      7 results available.
-    </span>
     <div
       className="css-14mtm9n"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className="css-vkq1bj"
+        className="css-1m8oe7c"
       >
         <div
           className="css-pka8w3"
@@ -15344,7 +15188,7 @@ exports[`Storyshots Select/Label + Info label 1`] = `
           Select...
         </div>
         <div
-          className="css-rsyb7x"
+          className="css-1g6gooi"
         >
           <div
             className=""
@@ -15355,25 +15199,18 @@ exports[`Storyshots Select/Label + Info label 1`] = `
             }
           >
             <input
-              aria-activedescendant={undefined}
               aria-autocomplete="list"
-              aria-busy={false}
-              aria-describedby={undefined}
-              aria-expanded={false}
-              aria-haspopup={false}
               aria-label={undefined}
               aria-labelledby={undefined}
-              aria-owns={undefined}
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-20-input"
+              id="react-select-22-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
-              role="combobox"
               spellCheck="false"
               style={
                 Object {
@@ -15415,19 +15252,18 @@ exports[`Storyshots Select/Label + Info label 1`] = `
       >
         <span
           className="css-0"
-          role="presentation"
         />
         <div
+          aria-hidden="true"
           className="css-7afory"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
-          role="button"
         >
           <svg
+            aria-hidden="true"
             className="css-19bqh2r"
             focusable="false"
             height={20}
-            role="presentation"
             viewBox="0 0 20 20"
             width={20}
           >
