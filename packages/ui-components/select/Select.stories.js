@@ -29,6 +29,8 @@ stories.add('Standard open', () => (React.createElement("div", { className: "inp
     React.createElement(Select, { options: feels, placeholder: "Goobers", menuIsOpen: true }))));
 stories.add('With placeholder', () => (React.createElement("div", { className: "input-select-wrap" },
     React.createElement(Select, { options: feels, placeholder: "Goobers" }))));
+stories.add('With tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
+    React.createElement(Select, { options: feels, placeholder: "Goobers", tooltip: "Great stuff!", tooltipDirection: "left" }))));
 stories.add('Disabled', () => (React.createElement("div", { className: "input-select-wrap is-disabled" },
     React.createElement(Select, { defaultValue: feels[7], disabled: true, options: feels }))));
 stories.add('Searchable', () => (React.createElement("div", { className: "input-select-wrap" },
@@ -43,6 +45,8 @@ stories.add('Tagging', () => (React.createElement("div", { className: "input-sel
     React.createElement(Createable, { isMulti: true, options: powerups, value: [powerups[0], powerups[1], { label: 'row', value: 'row' }] }))));
 stories.add('Tagging - open', () => (React.createElement("div", { className: "input-select-wrap" },
     React.createElement(Createable, { isMulti: true, options: powerups, value: [powerups[0], powerups[1], { label: 'row', value: 'row' }], menuIsOpen: true }))));
+stories.add('Tagging - tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
+    React.createElement(Createable, { isMulti: true, options: powerups, value: [powerups[0], powerups[1], { label: 'row', value: 'row' }], tooltip: "Much Power", tooltipDirection: "down" }))));
 stories.add('Option groups', () => (React.createElement("div", { className: "input-select-wrap" },
     React.createElement(Select, { name: "groups", placeholder: "Feels vs. Powerups", options: [
             { label: 'Feels', options: feels },

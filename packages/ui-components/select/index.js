@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactSelect from 'react-select';
+import ReactSelect, { components } from 'react-select';
 import ReactCreateable from 'react-select/lib/Creatable';
+import Icon from '../icon';
 import mixins from '../styles/global/mixins.scss';
 import dropDownShadow from '../styles/global/mixins/dropdownShadow.scss';
 import SassVars from '../styles/global/variables.scss';
+import Tooltip from '../tooltip';
 import cn from '../utilities/classnames';
 import Styles from './select.module.scss';
 const inputSelect = {
@@ -20,6 +22,16 @@ const disabledLabel = (disabled) => disabled
         backgroundColor: SassVars['select-disabled-color'],
     }
     : {};
+const DropdownIndicatorStyles = (base) => {
+    const dropdownIndicator = {
+        padding: 0,
+        '&::after': Object.assign({}, mixins, { color: SassVars['slate-60'], content: `${SassVars['icon-caret']}`, position: 'absolute', right: 5 }),
+        svg: {
+            display: 'none',
+        },
+    };
+    return Object.assign({}, base, dropdownIndicator);
+};
 const SelectStyles = {
     clearIndicator: (base) => {
         return { display: 'none' };
@@ -66,16 +78,7 @@ const SelectStyles = {
             : {};
         return Object.assign({}, base, control, focusState, errorState, disabledState, placeholderState);
     },
-    dropdownIndicator: (base) => {
-        const dropdownIndicator = {
-            padding: 0,
-            '&::after': Object.assign({}, mixins, { color: SassVars['slate-60'], content: `${SassVars['icon-caret']}`, position: 'absolute', right: 5 }),
-            svg: {
-                display: 'none',
-            },
-        };
-        return Object.assign({}, base, dropdownIndicator);
-    },
+    dropdownIndicator: DropdownIndicatorStyles,
     groupHeading: (base) => {
         const groupStyle = {
             color: SassVars.slate,
@@ -143,7 +146,20 @@ const SelectStyles = {
         });
     },
 };
+const DropdownIndicator = props => {
+    if (!props.selectProps.tooltip) {
+        return React.createElement(components.DropdownIndicator, Object.assign({}, props));
+    }
+    return (React.createElement(components.DropdownIndicator, Object.assign({}, props),
+        React.createElement(Tooltip, { content: props.selectProps.tooltip, direction: props.selectProps.tooltipDirection },
+            React.createElement(Icon, { type: "info-circle" }))));
+};
 const Select = props => {
+    // Override dropdownIndicator styling when tooltip is present
+    let dropdownIndicatorStylesOverride;
+    if (props.tooltip) {
+        dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+    }
     return (React.createElement("div", { className: cn('input-select-wrap', Styles['input-select-wrap'], {
             [Styles['is-disabled']]: props.disabled,
             'is-disabled': props.disabled,
@@ -153,7 +169,7 @@ const Select = props => {
             'is-required': props.required,
         }) },
         props.label && (React.createElement("label", { className: cn('input-select-label', Styles['input-select-label']) }, props.label)),
-        React.createElement(ReactSelect, Object.assign({}, props, { styles: Object.assign({}, SelectStyles, props.styles), isDisabled: props.disabled })),
+        React.createElement(ReactSelect, Object.assign({}, props, { components: { DropdownIndicator }, styles: Object.assign({}, SelectStyles, props.styles, dropdownIndicatorStylesOverride), isDisabled: props.disabled })),
         props.info && (React.createElement("span", { className: cn('input-info', Styles['input-info'], {
                 danger: props.error,
                 [Styles.danger]: props.error,
@@ -162,6 +178,11 @@ const Select = props => {
             }) }, props.info))));
 };
 const Createable = props => {
+    // Override dropdownIndicator styling when tooltip is present
+    let dropdownIndicatorStylesOverride;
+    if (props.tooltip) {
+        dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+    }
     return (React.createElement("div", { className: cn('input-select-wrap', Styles['input-select-wrap'], {
             [Styles['is-disabled']]: props.disabled,
             'is-disabled': props.disabled,
@@ -171,7 +192,7 @@ const Createable = props => {
             'is-required': props.required,
         }) },
         props.label && (React.createElement("label", { className: cn('input-select-label', Styles['input-select-label']) }, props.label)),
-        React.createElement(ReactCreateable, Object.assign({}, props, { styles: Object.assign({}, SelectStyles, props.styles), isDisabled: props.disabled })),
+        React.createElement(ReactCreateable, Object.assign({}, props, { components: { DropdownIndicator }, styles: Object.assign({}, SelectStyles, props.styles, dropdownIndicatorStylesOverride), isDisabled: props.disabled })),
         props.info && (React.createElement("span", { className: cn('input-info', Styles['input-info'], {
                 danger: props.error,
                 [Styles.danger]: props.error,
