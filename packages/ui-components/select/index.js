@@ -32,12 +32,14 @@ const DropdownIndicatorStyles = (base) => {
     };
     return Object.assign({}, base, dropdownIndicator);
 };
+// Override styling to make tooltip work even if select is disabled
+const DropdownIndicatorStylesOverride = (base) => (Object.assign({}, base, { pointerEvents: 'initial' }));
 const SelectStyles = {
     clearIndicator: (base) => {
         return { display: 'none' };
     },
     container: (base) => {
-        return Object.assign({}, base);
+        return Object.assign({}, base, { pointerEvents: 'initial' });
     },
     control: (base, state) => {
         const control = {
@@ -158,7 +160,9 @@ const Select = props => {
     // Override dropdownIndicator styling when tooltip is present
     let dropdownIndicatorStylesOverride;
     if (props.tooltip) {
-        dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+        dropdownIndicatorStylesOverride = {
+            dropdownIndicator: DropdownIndicatorStylesOverride,
+        };
     }
     return (React.createElement("div", { className: cn('input-select-wrap', Styles['input-select-wrap'], {
             [Styles['is-disabled']]: props.disabled,
@@ -181,7 +185,9 @@ const Createable = props => {
     // Override dropdownIndicator styling when tooltip is present
     let dropdownIndicatorStylesOverride;
     if (props.tooltip) {
-        dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+        dropdownIndicatorStylesOverride = {
+            dropdownIndicator: DropdownIndicatorStylesOverride,
+        };
     }
     return (React.createElement("div", { className: cn('input-select-wrap', Styles['input-select-wrap'], {
             [Styles['is-disabled']]: props.disabled,

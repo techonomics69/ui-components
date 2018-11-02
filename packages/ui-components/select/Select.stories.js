@@ -33,6 +33,8 @@ stories.add('With tooltip', () => (React.createElement("div", { className: "inpu
     React.createElement(Select, { options: feels, placeholder: "Goobers", tooltip: "Great stuff!", tooltipDirection: "left" }))));
 stories.add('Disabled', () => (React.createElement("div", { className: "input-select-wrap is-disabled" },
     React.createElement(Select, { defaultValue: feels[7], disabled: true, options: feels }))));
+stories.add('Disabled with tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
+    React.createElement(Select, { disabled: true, options: feels, placeholder: "Goobers", tooltip: "Still works!", tooltipDirection: "left" }))));
 stories.add('Searchable', () => (React.createElement("div", { className: "input-select-wrap" },
     React.createElement(Select, { defaultValue: feels[1], isSearchable: true, options: feels }))));
 stories.add('Multi select - no values', () => (React.createElement("div", { className: "input-select-wrap" },
