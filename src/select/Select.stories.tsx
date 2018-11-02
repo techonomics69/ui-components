@@ -62,6 +62,18 @@ stories.add('Disabled', () => (
   </div>
 ));
 
+stories.add('Disabled with tooltip', () => (
+  <div className="input-select-wrap">
+    <Select
+      disabled
+      options={feels}
+      placeholder="Goobers"
+      tooltip="Still works!"
+      tooltipDirection="left"
+    />
+  </div>
+));
+
 stories.add('Searchable', () => (
   <div className="input-select-wrap">
     <Select defaultValue={feels[1]} isSearchable options={feels} />

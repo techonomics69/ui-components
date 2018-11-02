@@ -49,12 +49,18 @@ const DropdownIndicatorStyles = (base: object) => {
   return { ...base, ...dropdownIndicator };
 };
 
+// Override styling to make tooltip work even if select is disabled
+const DropdownIndicatorStylesOverride = (base: object) => ({
+  ...base,
+  ...{ pointerEvents: 'initial' },
+});
+
 const SelectStyles = {
   clearIndicator: (base: object) => {
     return { display: 'none' };
   },
   container: (base: object) => {
-    return { ...base };
+    return { ...base, ...{ pointerEvents: 'initial' } };
   },
   control: (base: object, state: any) => {
     const control = {
@@ -244,7 +250,9 @@ const Select: React.SFC<any> = props => {
   // Override dropdownIndicator styling when tooltip is present
   let dropdownIndicatorStylesOverride;
   if (props.tooltip) {
-    dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+    dropdownIndicatorStylesOverride = {
+      dropdownIndicator: DropdownIndicatorStylesOverride,
+    };
   }
 
   return (
@@ -295,7 +303,9 @@ const Createable: React.SFC<any> = props => {
   // Override dropdownIndicator styling when tooltip is present
   let dropdownIndicatorStylesOverride;
   if (props.tooltip) {
-    dropdownIndicatorStylesOverride = { dropdownIndicator: () => ({}) };
+    dropdownIndicatorStylesOverride = {
+      dropdownIndicator: DropdownIndicatorStylesOverride,
+    };
   }
 
   return (
