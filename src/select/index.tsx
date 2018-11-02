@@ -52,7 +52,10 @@ const DropdownIndicatorStyles = (base: object) => {
 // Override styling to make tooltip work even if select is disabled
 const DropdownIndicatorStylesOverride = (base: object) => ({
   ...base,
-  ...{ pointerEvents: 'initial' },
+  ...{
+    padding: 0,
+    pointerEvents: 'initial',
+  },
 });
 
 const SelectStyles = {

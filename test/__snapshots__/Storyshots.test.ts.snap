@@ -11977,14 +11977,14 @@ exports[`Storyshots Select Disabled with tooltip 1`] = `
           />
           <div
             aria-hidden="true"
-            className="css-1ei7cy1"
+            className="css-147ncta"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <span
               className={undefined}
               data-tooltip="Still works!"
-              data-tooltip-length={undefined}
+              data-tooltip-length="large"
               data-tooltip-pos="left"
             >
               <i
@@ -13925,14 +13925,14 @@ exports[`Storyshots Select Tagging - tooltip 1`] = `
           />
           <div
             aria-hidden="true"
-            className="css-1ei7cy1"
+            className="css-147ncta"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <span
               className={undefined}
               data-tooltip="Much Power"
-              data-tooltip-length={undefined}
+              data-tooltip-length="large"
               data-tooltip-pos="down"
             >
               <i
@@ -14491,14 +14491,14 @@ exports[`Storyshots Select With tooltip 1`] = `
           />
           <div
             aria-hidden="true"
-            className="css-1ei7cy1"
+            className="css-147ncta"
             onMouseDown={[Function]}
             onTouchEnd={[Function]}
           >
             <span
               className={undefined}
               data-tooltip="Great stuff!"
-              data-tooltip-length={undefined}
+              data-tooltip-length="large"
               data-tooltip-pos="left"
             >
               <i
