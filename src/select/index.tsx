@@ -1,11 +1,13 @@
+import { PointerEventsProperty, TextTransformProperty } from 'csstype';
 import React from 'react';
 import ReactSelect, { components } from 'react-select';
 import { SelectComponents } from 'react-select/lib/components';
 import { IndicatorProps } from 'react-select/lib/components/indicators';
-import ReactCreateable from 'react-select/lib/Creatable';
+import ReactCreateable, {
+  Props as ReactCreateableProps,
+} from 'react-select/lib/Creatable';
 import { Props as ReactSelectProps } from 'react-select/lib/Select';
-import { Styles as ReactSelectStyles } from 'react-select/lib/styles';
-import { CommonProps, InnerRef } from 'react-select/lib/types';
+import { CommonProps } from 'react-select/lib/types';
 import Icon from '../icon';
 import mixins from '../styles/global/mixins.scss';
 import dropDownShadow from '../styles/global/mixins/dropdownShadow.scss';
@@ -56,7 +58,7 @@ const DropdownIndicatorStylesOverride = (base: object) => ({
   ...base,
   ...{
     padding: 0,
-    pointerEvents: 'initial',
+    pointerEvents: 'initial' as PointerEventsProperty,
   },
 });
 
@@ -65,7 +67,10 @@ const SelectStyles = {
     return { display: 'none' };
   },
   container: (base: object) => {
-    return { ...base, ...{ pointerEvents: 'initial' } };
+    return {
+      ...base,
+      ...{ pointerEvents: 'initial' as PointerEventsProperty },
+    };
   },
   control: (base: object, state: any) => {
     const control = {
@@ -124,7 +129,7 @@ const SelectStyles = {
       fontWeight: 600,
       marginBottom: 0,
       padding: '9px 30px',
-      textTransform: 'capitalize',
+      textTransform: 'capitalize' as TextTransformProperty,
     };
     return { ...base, ...groupStyle };
   },
@@ -202,15 +207,6 @@ const SelectStyles = {
       },
     };
   },
-  selectContainer: (base: object) => {
-    return {
-      ...base,
-      ...{
-        marginLeft: 0,
-        marginRight: 0,
-      },
-    };
-  },
   singleValue: (base: object) => {
     return {
       ...base,
@@ -252,7 +248,7 @@ const DropdownIndicator: React.SFC<
   );
 };
 
-interface SelectProps {
+export interface SelectProps extends ReactSelectProps {
   disabled?: boolean;
   error?: boolean;
   info?: string;
@@ -316,7 +312,9 @@ const Select: React.SFC<ReactSelectProps<any> & SelectProps> = props => {
   );
 };
 
-const Createable: React.SFC<any> = props => {
+const Createable: React.SFC<
+  ReactCreateableProps<any> & SelectProps
+> = props => {
   // Override dropdownIndicator styling when tooltip is present
   let dropdownIndicatorStylesOverride;
   if (props.tooltip) {

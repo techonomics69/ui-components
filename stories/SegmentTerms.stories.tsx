@@ -36,8 +36,8 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-a"
-                  options={[{ label: 'The first time a contact' }]}
-                  defaultValue={{ label: 'The first time a contact' }}
+                  options={[{ label: 'The first time a contact', value: '1' }]}
+                  defaultValue={{ label: 'The first time a contact', value: '1' }}
                 />
               </div>
               <div className="input-select-wrap">
@@ -46,8 +46,8 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-b"
-                  options={[{ label: 'Abandons a cart' }]}
-                  defaultValue={{ label: 'Abandons a cart' }}
+                  options={[{ label: 'Abandons a cart', value: '1' }]}
+                  defaultValue={{ label: 'Abandons a cart', value: '1' }}
                 />
               </div>
             </Fragment>
@@ -78,8 +78,8 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-a"
-                  options={[{ label: 'The first time a contact' }]}
-                  defaultValue={{ label: 'The first time a contact' }}
+                  options={[{ label: 'The first time a contact', value: '1' }]}
+                  defaultValue={{ label: 'The first time a contact', value: '1' }}
                 />
               </div>
               <div className="input-select-wrap">
@@ -88,7 +88,7 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-b"
-                  options={[{ label: 'Abandons a cart' }]}
+                  options={[{ label: 'Abandons a cart', value: '1' }]}
                   error={true}
                 />
               </div>
@@ -118,8 +118,8 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-a"
-                  options={[{ label: 'The first time a contact' }]}
-                  defaultValue={{ label: 'The first time a contact' }}
+                  options={[{ label: 'The first time a contact', value: '1' }]}
+                  defaultValue={{ label: 'The first time a contact', value: '1' }}
                 />
               </div>
               <div className="input-select-wrap">
@@ -128,8 +128,8 @@ stories.add('Segment terms', () => (
                 </label>
                 <Select
                   id="select-b"
-                  options={[{ label: 'Abandons a cart' }]}
-                  defaultValue={{ label: 'Abandons a cart' }}
+                  options={[{ label: 'Abandons a cart', value: '1' }]}
+                  defaultValue={{ label: 'Abandons a cart', value: '1' }}
                 />
               </div>
             </Fragment>
@@ -167,14 +167,14 @@ stories.add('Segment term which is being edited', () => (
           </label>
           <Select
             id="select-a"
-            options={[{ label: 'The first time a contact' }]}
+            options={[{ label: 'The first time a contact', value: '1' }]}
           />
         </div>
         <div className="input-select-wrap">
           <label className="input-select-label" htmlFor="select-b">
             Select contact criteria
           </label>
-          <Select id="select-b" options={[{ label: 'Abandons a cart' }]} />
+          <Select id="select-b" options={[{ label: 'Abandons a cart', value: '1' }]} />
         </div>
       </Fragment>
     )}
@@ -200,20 +200,20 @@ stories.add('Segment term which is being edited and is filled out', () => (
           </label>
           <Select
             id="select-a"
-            options={[{ label: 'the first time a contact' }]}
-            defaultValue={{ label: 'the first time a contact' }}
+            options={[{ label: 'the first time a contact', value: '1' }]}
+            defaultValue={{ label: 'the first time a contact', value: '1' }}
           />
         </div>
         <div className="input-select-wrap">
           <label className="input-select-label" htmlFor="select-b">
             Select contact criteria
           </label>
-          <Select id="select-b" options={[{ label: 'Abandons a cart' }]} />
+          <Select id="select-b" options={[{ label: 'Abandons a cart', value: '1' }]} />
         </div>
         <div className="input-select-wrap">
           <Select
             id="select-c"
-            options={[{ label: 'People in Los Angeles' }]}
+            options={[{ label: 'People in Los Angeles', value: '1' }]}
           />
         </div>
       </Fragment>
