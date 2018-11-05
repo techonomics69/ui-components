@@ -153,7 +153,7 @@ const DropdownIndicator = props => {
         return React.createElement(components.DropdownIndicator, Object.assign({}, props));
     }
     return (React.createElement(components.DropdownIndicator, Object.assign({}, props),
-        React.createElement(Tooltip, { content: props.selectProps.tooltip, direction: props.selectProps.tooltipDirection },
+        React.createElement(Tooltip, { content: props.selectProps.tooltip, direction: props.selectProps.tooltipDirection, length: props.selectProps.tooltipLength },
             React.createElement(Icon, { type: "info-circle" }))));
 };
 const Select = props => {

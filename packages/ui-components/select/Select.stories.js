@@ -31,6 +31,8 @@ stories.add('With placeholder', () => (React.createElement("div", { className: "
     React.createElement(Select, { options: feels, placeholder: "Goobers" }))));
 stories.add('With tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
     React.createElement(Select, { options: feels, placeholder: "Goobers", tooltip: "Great stuff!", tooltipDirection: "left" }))));
+stories.add('With long tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
+    React.createElement(Select, { options: feels, placeholder: "Goobers", tooltip: "This tooltip has a lot of words, but that's okay because it should wrap. Don't be afraid to be descriptive using this select tooltip!", tooltipDirection: "left", tooltipLength: "large" }))));
 stories.add('Disabled', () => (React.createElement("div", { className: "input-select-wrap is-disabled" },
     React.createElement(Select, { defaultValue: feels[7], disabled: true, options: feels }))));
 stories.add('Disabled with tooltip', () => (React.createElement("div", { className: "input-select-wrap" },
