@@ -239,6 +239,7 @@ const DropdownIndicator: React.SFC<
       <Tooltip
         content={props.selectProps.tooltip}
         direction={props.selectProps.tooltipDirection}
+        length={props.selectProps.tooltipLength}
       >
         <Icon type="info-circle" />
       </Tooltip>

@@ -56,6 +56,18 @@ stories.add('With tooltip', () => (
   </div>
 ));
 
+stories.add('With long tooltip', () => (
+  <div className="input-select-wrap">
+    <Select
+      options={feels}
+      placeholder="Goobers"
+      tooltip="This tooltip has a lot of words, but that's okay because it should wrap. Don't be afraid to be descriptive using this select tooltip!"
+      tooltipDirection="left"
+      tooltipLength="large"
+    />
+  </div>
+));
+
 stories.add('Disabled', () => (
   <div className="input-select-wrap is-disabled">
     <Select defaultValue={feels[7]} disabled options={feels} />

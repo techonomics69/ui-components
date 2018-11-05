@@ -10513,7 +10513,7 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-28-input"
+                    id="react-select-29-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -10633,7 +10633,7 @@ exports[`Storyshots Segment Term Segment term which is being edited 1`] = `
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-29-input"
+                    id="react-select-30-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -10804,7 +10804,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-30-input"
+                    id="react-select-31-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -10924,7 +10924,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-31-input"
+                    id="react-select-32-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -11038,7 +11038,7 @@ exports[`Storyshots Segment Term Segment term which is being edited and is fille
                     autoCorrect="off"
                     className={undefined}
                     disabled={false}
-                    id="react-select-32-input"
+                    id="react-select-33-input"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -11409,7 +11409,7 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                         autoCorrect="off"
                         className={undefined}
                         disabled={false}
-                        id="react-select-26-input"
+                        id="react-select-27-input"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
@@ -11529,7 +11529,7 @@ exports[`Storyshots Segment Term Segment terms 1`] = `
                         autoCorrect="off"
                         className={undefined}
                         disabled={false}
-                        id="react-select-27-input"
+                        id="react-select-28-input"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
@@ -11695,7 +11695,7 @@ exports[`Storyshots Select Custom classnames and styles 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-17-input"
+                id="react-select-18-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -11812,7 +11812,7 @@ exports[`Storyshots Select Disabled 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={true}
-                id="react-select-6-input"
+                id="react-select-7-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -11929,7 +11929,7 @@ exports[`Storyshots Select Disabled with tooltip 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={true}
-                id="react-select-7-input"
+                id="react-select-8-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -12046,7 +12046,7 @@ exports[`Storyshots Select Multi select - no values 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-9-input"
+                id="react-select-10-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -12119,6 +12119,258 @@ exports[`Storyshots Select Multi select - no values 1`] = `
 `;
 
 exports[`Storyshots Select Multi select - open 1`] = `
+<div
+  className="input-select-wrap"
+>
+  <div
+    className="input-select-wrap"
+  >
+    <div
+      className="css-5jw5i7"
+      id={undefined}
+      onKeyDown={[Function]}
+    >
+      <div
+        className="css-1bhqczi"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className="css-1m8oe7c"
+        >
+          <div
+            className="css-113lvzv"
+          >
+            <div
+              className="css-erhrr7"
+            >
+              Mushroom
+            </div>
+            <div
+              className="css-duvmhs"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <svg
+                aria-hidden="true"
+                className="css-19bqh2r"
+                focusable="false"
+                height={14}
+                viewBox="0 0 20 20"
+                width={14}
+              >
+                <path
+                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="css-113lvzv"
+          >
+            <div
+              className="css-erhrr7"
+            >
+              Fire flower
+            </div>
+            <div
+              className="css-duvmhs"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <svg
+                aria-hidden="true"
+                className="css-19bqh2r"
+                focusable="false"
+                height={14}
+                viewBox="0 0 20 20"
+                width={14}
+              >
+                <path
+                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="css-1g6gooi"
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <input
+                aria-autocomplete="list"
+                aria-label={undefined}
+                aria-labelledby={undefined}
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                className={undefined}
+                disabled={false}
+                id="react-select-12-input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                spellCheck="false"
+                style={
+                  Object {
+                    "background": 0,
+                    "border": 0,
+                    "boxSizing": "content-box",
+                    "color": "inherit",
+                    "fontSize": "inherit",
+                    "opacity": 1,
+                    "outline": 0,
+                    "padding": 0,
+                    "width": "1px",
+                  }
+                }
+                tabIndex="0"
+                type="text"
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1wy0on6"
+        >
+          <div
+            aria-hidden="true"
+            className="css-1hyfx7x"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <svg
+              aria-hidden="true"
+              className="css-19bqh2r"
+              focusable="false"
+              height={20}
+              viewBox="0 0 20 20"
+              width={20}
+            >
+              <path
+                d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+              />
+            </svg>
+          </div>
+          <span
+            className="css-0"
+          />
+          <div
+            aria-hidden="true"
+            className="css-7afory"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <svg
+              aria-hidden="true"
+              className="css-19bqh2r"
+              focusable="false"
+              height={20}
+              viewBox="0 0 20 20"
+              width={20}
+            >
+              <path
+                d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1wcxi4x"
+        onMouseDown={[Function]}
+        onMouseMove={[Function]}
+      >
+        <div
+          className="css-11unzgr"
+        >
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-2"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Star
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-3"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Feather
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-4"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Frog
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-5"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            Tanooki
+          </div>
+          <div
+            className="css-1f1tals"
+            id="react-select-12-option-6"
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            role="option"
+            tabIndex={-1}
+          >
+            1-up
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Multi select 1`] = `
 <div
   className="input-select-wrap"
 >
@@ -12300,258 +12552,6 @@ exports[`Storyshots Select Multi select - open 1`] = `
           </div>
         </div>
       </div>
-      <div
-        className="css-1wcxi4x"
-        onMouseDown={[Function]}
-        onMouseMove={[Function]}
-      >
-        <div
-          className="css-11unzgr"
-        >
-          <div
-            className="css-1f1tals"
-            id="react-select-11-option-2"
-            onClick={[Function]}
-            onMouseMove={[Function]}
-            onMouseOver={[Function]}
-            role="option"
-            tabIndex={-1}
-          >
-            Star
-          </div>
-          <div
-            className="css-1f1tals"
-            id="react-select-11-option-3"
-            onClick={[Function]}
-            onMouseMove={[Function]}
-            onMouseOver={[Function]}
-            role="option"
-            tabIndex={-1}
-          >
-            Feather
-          </div>
-          <div
-            className="css-1f1tals"
-            id="react-select-11-option-4"
-            onClick={[Function]}
-            onMouseMove={[Function]}
-            onMouseOver={[Function]}
-            role="option"
-            tabIndex={-1}
-          >
-            Frog
-          </div>
-          <div
-            className="css-1f1tals"
-            id="react-select-11-option-5"
-            onClick={[Function]}
-            onMouseMove={[Function]}
-            onMouseOver={[Function]}
-            role="option"
-            tabIndex={-1}
-          >
-            Tanooki
-          </div>
-          <div
-            className="css-1f1tals"
-            id="react-select-11-option-6"
-            onClick={[Function]}
-            onMouseMove={[Function]}
-            onMouseOver={[Function]}
-            role="option"
-            tabIndex={-1}
-          >
-            1-up
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Select Multi select 1`] = `
-<div
-  className="input-select-wrap"
->
-  <div
-    className="input-select-wrap"
-  >
-    <div
-      className="css-5jw5i7"
-      id={undefined}
-      onKeyDown={[Function]}
-    >
-      <div
-        className="css-1bhqczi"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className="css-1m8oe7c"
-        >
-          <div
-            className="css-113lvzv"
-          >
-            <div
-              className="css-erhrr7"
-            >
-              Mushroom
-            </div>
-            <div
-              className="css-duvmhs"
-              onClick={[Function]}
-              onMouseDown={[Function]}
-              onTouchEnd={[Function]}
-            >
-              <svg
-                aria-hidden="true"
-                className="css-19bqh2r"
-                focusable="false"
-                height={14}
-                viewBox="0 0 20 20"
-                width={14}
-              >
-                <path
-                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            className="css-113lvzv"
-          >
-            <div
-              className="css-erhrr7"
-            >
-              Fire flower
-            </div>
-            <div
-              className="css-duvmhs"
-              onClick={[Function]}
-              onMouseDown={[Function]}
-              onTouchEnd={[Function]}
-            >
-              <svg
-                aria-hidden="true"
-                className="css-19bqh2r"
-                focusable="false"
-                height={14}
-                viewBox="0 0 20 20"
-                width={14}
-              >
-                <path
-                  d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            className="css-1g6gooi"
-          >
-            <div
-              className=""
-              style={
-                Object {
-                  "display": "inline-block",
-                }
-              }
-            >
-              <input
-                aria-autocomplete="list"
-                aria-label={undefined}
-                aria-labelledby={undefined}
-                autoCapitalize="none"
-                autoComplete="off"
-                autoCorrect="off"
-                className={undefined}
-                disabled={false}
-                id="react-select-10-input"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                spellCheck="false"
-                style={
-                  Object {
-                    "background": 0,
-                    "border": 0,
-                    "boxSizing": "content-box",
-                    "color": "inherit",
-                    "fontSize": "inherit",
-                    "opacity": 1,
-                    "outline": 0,
-                    "padding": 0,
-                    "width": "1px",
-                  }
-                }
-                tabIndex="0"
-                type="text"
-                value=""
-              />
-              <div
-                style={
-                  Object {
-                    "height": 0,
-                    "left": 0,
-                    "overflow": "scroll",
-                    "position": "absolute",
-                    "top": 0,
-                    "visibility": "hidden",
-                    "whiteSpace": "pre",
-                  }
-                }
-              >
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="css-1wy0on6"
-        >
-          <div
-            aria-hidden="true"
-            className="css-1hyfx7x"
-            onMouseDown={[Function]}
-            onTouchEnd={[Function]}
-          >
-            <svg
-              aria-hidden="true"
-              className="css-19bqh2r"
-              focusable="false"
-              height={20}
-              viewBox="0 0 20 20"
-              width={20}
-            >
-              <path
-                d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
-              />
-            </svg>
-          </div>
-          <span
-            className="css-0"
-          />
-          <div
-            aria-hidden="true"
-            className="css-7afory"
-            onMouseDown={[Function]}
-            onTouchEnd={[Function]}
-          >
-            <svg
-              aria-hidden="true"
-              className="css-19bqh2r"
-              focusable="false"
-              height={20}
-              viewBox="0 0 20 20"
-              width={20}
-            >
-              <path
-                d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -12602,7 +12602,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-16-input"
+                id="react-select-17-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -12682,14 +12682,14 @@ exports[`Storyshots Select Option groups - open 1`] = `
           >
             <div
               className="css-1ub2vtp"
-              id="react-select-16-group-0-heading"
+              id="react-select-17-group-0-heading"
             >
               Feels
             </div>
             <div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-0"
+                id="react-select-17-option-0-0"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12700,7 +12700,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-1"
+                id="react-select-17-option-0-1"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12711,7 +12711,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-2"
+                id="react-select-17-option-0-2"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12722,7 +12722,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-3"
+                id="react-select-17-option-0-3"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12733,7 +12733,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-4"
+                id="react-select-17-option-0-4"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12744,7 +12744,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-5"
+                id="react-select-17-option-0-5"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12755,7 +12755,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-6"
+                id="react-select-17-option-0-6"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12766,7 +12766,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-0-7"
+                id="react-select-17-option-0-7"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12782,14 +12782,14 @@ exports[`Storyshots Select Option groups - open 1`] = `
           >
             <div
               className="css-1ub2vtp"
-              id="react-select-16-group-1-heading"
+              id="react-select-17-group-1-heading"
             >
               Powerups
             </div>
             <div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-0"
+                id="react-select-17-option-1-0"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12800,7 +12800,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-1"
+                id="react-select-17-option-1-1"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12811,7 +12811,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-2"
+                id="react-select-17-option-1-2"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12822,7 +12822,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-3"
+                id="react-select-17-option-1-3"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12833,7 +12833,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-4"
+                id="react-select-17-option-1-4"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12844,7 +12844,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-5"
+                id="react-select-17-option-1-5"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12855,7 +12855,7 @@ exports[`Storyshots Select Option groups - open 1`] = `
               </div>
               <div
                 className="css-1f1tals"
-                id="react-select-16-option-1-6"
+                id="react-select-17-option-1-6"
                 onClick={[Function]}
                 onMouseMove={[Function]}
                 onMouseOver={[Function]}
@@ -12923,7 +12923,7 @@ exports[`Storyshots Select Option groups 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-15-input"
+                id="react-select-16-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -13045,7 +13045,7 @@ exports[`Storyshots Select Searchable 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-8-input"
+                id="react-select-9-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -13578,7 +13578,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-13-input"
+                id="react-select-14-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -13674,7 +13674,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
         >
           <div
             className="css-1f1tals"
-            id="react-select-13-option-2"
+            id="react-select-14-option-2"
             onClick={[Function]}
             onMouseMove={[Function]}
             onMouseOver={[Function]}
@@ -13685,7 +13685,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
           <div
             className="css-1f1tals"
-            id="react-select-13-option-3"
+            id="react-select-14-option-3"
             onClick={[Function]}
             onMouseMove={[Function]}
             onMouseOver={[Function]}
@@ -13696,7 +13696,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
           <div
             className="css-1f1tals"
-            id="react-select-13-option-4"
+            id="react-select-14-option-4"
             onClick={[Function]}
             onMouseMove={[Function]}
             onMouseOver={[Function]}
@@ -13707,7 +13707,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
           <div
             className="css-1f1tals"
-            id="react-select-13-option-5"
+            id="react-select-14-option-5"
             onClick={[Function]}
             onMouseMove={[Function]}
             onMouseOver={[Function]}
@@ -13718,7 +13718,7 @@ exports[`Storyshots Select Tagging - open 1`] = `
           </div>
           <div
             className="css-1f1tals"
-            id="react-select-13-option-6"
+            id="react-select-14-option-6"
             onClick={[Function]}
             onMouseMove={[Function]}
             onMouseOver={[Function]}
@@ -13858,7 +13858,7 @@ exports[`Storyshots Select Tagging - tooltip 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-14-input"
+                id="react-select-15-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -14073,7 +14073,7 @@ exports[`Storyshots Select Tagging 1`] = `
                 autoCorrect="off"
                 className={undefined}
                 disabled={false}
-                id="react-select-12-input"
+                id="react-select-13-input"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -14156,6 +14156,123 @@ exports[`Storyshots Select Tagging 1`] = `
                 d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
               />
             </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select With long tooltip 1`] = `
+<div
+  className="input-select-wrap"
+>
+  <div
+    className="input-select-wrap"
+  >
+    <div
+      className="css-5jw5i7"
+      id={undefined}
+      onKeyDown={[Function]}
+    >
+      <div
+        className="css-18rrerb"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className="css-1m8oe7c"
+        >
+          <div
+            className="css-pka8w3"
+          >
+            Goobers
+          </div>
+          <div
+            className="css-1g6gooi"
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <input
+                aria-autocomplete="list"
+                aria-label={undefined}
+                aria-labelledby={undefined}
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                className={undefined}
+                disabled={false}
+                id="react-select-6-input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                spellCheck="false"
+                style={
+                  Object {
+                    "background": 0,
+                    "border": 0,
+                    "boxSizing": "content-box",
+                    "color": "inherit",
+                    "fontSize": "inherit",
+                    "opacity": 1,
+                    "outline": 0,
+                    "padding": 0,
+                    "width": "1px",
+                  }
+                }
+                tabIndex="0"
+                type="text"
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1wy0on6"
+        >
+          <span
+            className="css-0"
+          />
+          <div
+            aria-hidden="true"
+            className="css-1ei7cy1"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <span
+              className={undefined}
+              data-tooltip="This tooltip has a lot of words, but that's okay because it should wrap. Don't be afraid to be descriptive using this select tooltip!"
+              data-tooltip-length="large"
+              data-tooltip-pos="left"
+            >
+              <i
+                className="sg-icon sg-icon-info-circle"
+                onClick={undefined}
+                style={null}
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -14445,7 +14562,7 @@ exports[`Storyshots Select/Label + Info disabled + error 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-22-input"
+              id="react-select-23-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -14591,7 +14708,7 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue - multi select 1
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-21-input"
+              id="react-select-22-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -14714,7 +14831,7 @@ exports[`Storyshots Select/Label + Info disabled - defaultValue 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-20-input"
+              id="react-select-21-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -14837,7 +14954,7 @@ exports[`Storyshots Select/Label + Info disabled 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-19-input"
+              id="react-select-20-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -14960,7 +15077,7 @@ exports[`Storyshots Select/Label + Info error 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-18-input"
+              id="react-select-19-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -15078,7 +15195,7 @@ exports[`Storyshots Select/Label + Info info 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-25-input"
+              id="react-select-26-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -15201,7 +15318,7 @@ exports[`Storyshots Select/Label + Info label - required 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={false}
-              id="react-select-24-input"
+              id="react-select-25-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -15324,7 +15441,7 @@ exports[`Storyshots Select/Label + Info label 1`] = `
               autoCorrect="off"
               className={undefined}
               disabled={true}
-              id="react-select-23-input"
+              id="react-select-24-input"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
