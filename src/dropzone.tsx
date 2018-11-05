@@ -8,7 +8,7 @@ import cn from './utilities/classnames';
 export interface DropzoneProps {
   active?: boolean;
   alert?: React.ReactElement<AlertProps>;
-  children?: string | React.ReactElement<any>;
+  children?: React.ReactNode;
   className?: string;
   hovered?: boolean;
   invalid?: boolean;

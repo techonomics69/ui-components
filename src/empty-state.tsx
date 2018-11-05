@@ -14,9 +14,9 @@ const evaluateRenderProp: (
 };
 
 export interface EmptyStateProps {
-  children?: string | React.ReactElement<any> | Array<React.ReactElement<any>>;
+  children?: React.ReactNode;
   icon?: IconType | (() => React.ReactNode);
-  buttons?: Array<React.ReactElement<any>>;
+  buttons?: React.ReactNode;
   header?: string;
   className?: string;
 }

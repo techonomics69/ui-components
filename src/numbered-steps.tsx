@@ -3,7 +3,7 @@ import Styles from './styles/numbered-steps.module.scss';
 import cn from './utilities/classnames';
 
 export interface NumberedStepProps {
-  children: React.ReactElement<any> | Array<React.ReactElement<any>>;
+  children: React.ReactNode;
   header: string;
 }
 
@@ -23,6 +23,7 @@ export interface NumberedStepsProps {
     | React.ReactElement<NumberedStepProps>
     | Array<React.ReactElement<NumberedStepProps>>;
   className?: string;
+  attributes: Array<any>;
 }
 
 export const NumberedSteps: React.SFC<NumberedStepsProps> = ({

@@ -3,9 +3,7 @@ import Styles from './styles/breadcrumb.module.scss';
 import cn from './utilities/classnames';
 
 export interface BreadcrumbProps {
-  children:
-    | Array<React.ReactElement<ChildProps>>
-    | React.ReactElement<ChildProps>;
+  children: React.ReactNode;
   withoutTrailingSlash?: boolean;
   className?: string;
 }
@@ -16,11 +14,7 @@ export interface ChildProps {
 }
 
 const { map } = React.Children;
-const mapper = (
-  children:
-    | Array<React.ReactElement<ChildProps>>
-    | React.ReactElement<ChildProps>
-) =>
+const mapper = (children: React.ReactNode) =>
   map(
     children,
     (child: React.ReactElement<ChildProps>, i: number) =>

@@ -1,9 +1,9 @@
-import { Children, ReactElement } from 'react';
+import { Children } from 'react';
 
-const findActiveIndex = (components: Array<ReactElement<any>>): number => {
+const findActiveIndex = (components: React.ReactNode): number => {
   const activeIndex = Children.map(
     components,
-    (component: React.ReactElement<any>) => component.props.active,
+    (component: React.ReactNode) => component.props.active
   ).indexOf(true);
 
   if (activeIndex === -1) {

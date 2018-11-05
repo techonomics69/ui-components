@@ -11,7 +11,7 @@ export interface TooltipProps {
   direction?: TooltipDirection;
   length?: TooltipLength;
   className?: string;
-  children?: React.ReactElement<any>;
+  children?: React.ReactNode;
 }
 
 export const Tooltip: React.SFC<TooltipProps> = ({
@@ -47,8 +47,8 @@ export interface HTMLTooltipProps {
   direction?: HtmlTooltipDirection;
   length?: HtmlTooltipLength;
   className?: string;
-  children?: React.ReactElement<any>;
-  hoverTarget?: React.ReactElement<any>;
+  children?: React.ReactNode;
+  hoverTarget?: React.ReactNode;
   debounce?: number;
   style?: object;
 }

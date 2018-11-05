@@ -4,9 +4,7 @@ import Styles from './styles/button.module.scss';
 import cn from './utilities/classnames';
 
 export interface ButtonListProps extends HTMLAttributes<HTMLDivElement> {
-  children?:
-    | React.ReactElement<ButtonProps>
-    | Array<React.ReactElement<ButtonProps>>;
+  children?: React.ReactNode;
   onDark?: boolean;
   className?: string;
 }

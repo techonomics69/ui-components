@@ -22,7 +22,7 @@ export interface CardProps {
         content: string;
         color: ValidColor;
       }
-    | React.ReactElement<any>;
+    | React.ReactNode;
   icon?: IconType;
   iconSize?: IconSizeType;
   selected?: boolean;
