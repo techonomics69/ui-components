@@ -15546,6 +15546,142 @@ Array [
 ]
 `;
 
+exports[`Storyshots Simple Select Default Value, label, info 1`] = `
+<div
+  className="simple-select-wrap is-required"
+>
+  <label
+    className="simple-select-label"
+  >
+    Check out this default
+  </label>
+  <div
+    className="simple-select"
+  >
+    <div
+      className="simple-select-control"
+      onMouseDown={[Function]}
+    >
+      Grand
+    </div>
+  </div>
+  <span
+    className="input-info"
+  >
+    For your information, this is required
+  </span>
+</div>
+`;
+
+exports[`Storyshots Simple Select Required, label 1`] = `
+<div
+  className="simple-select-wrap is-required"
+>
+  <label
+    className="simple-select-label"
+  >
+    This is required
+  </label>
+  <div
+    className="simple-select"
+  >
+    <div
+      className="simple-select-control"
+      onMouseDown={[Function]}
+    >
+      Choose a thing
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Simple Select Required, label, info 1`] = `
+<div
+  className="simple-select-wrap is-required"
+>
+  <label
+    className="simple-select-label"
+  >
+    This is required
+  </label>
+  <div
+    className="simple-select"
+  >
+    <div
+      className="simple-select-control"
+      onMouseDown={[Function]}
+    >
+      Choose a thing
+    </div>
+  </div>
+  <span
+    className="input-info"
+  >
+    For your information, this is required
+  </span>
+</div>
+`;
+
+exports[`Storyshots Simple Select Wacky custom option styling 1`] = `
+<div
+  className="simple-select-wrap is-required"
+>
+  <label
+    className="simple-select-label"
+  >
+    This is required
+  </label>
+  <div
+    className="simple-select"
+  >
+    <div
+      className="simple-select-control"
+      onMouseDown={[Function]}
+    >
+      Select...
+    </div>
+  </div>
+  <span
+    className="input-info"
+  >
+    For your information, this is required
+  </span>
+</div>
+`;
+
+exports[`Storyshots Simple Select placeholder, does not steal focus 1`] = `
+Array [
+  <div
+    className="simple-select-wrap is-required"
+  >
+    <label
+      className="simple-select-label"
+    >
+      This is required
+    </label>
+    <div
+      className="simple-select"
+    >
+      <div
+        className="simple-select-control"
+        onMouseDown={[Function]}
+      >
+        Choose a thing
+      </div>
+    </div>
+  </div>,
+  <div>
+    <p>
+      Type here and then open the dropdown. You shouldn't loose focus from the textArea at any point
+    </p>
+    <textarea
+      onChange={[Function]}
+      value=""
+    />
+  </div>,
+]
+`;
+
 exports[`Storyshots Slider Slider with Label 1`] = `
 <div
   className="input-range-wrap"
