@@ -1,0 +1,133 @@
+@import '../styles/global/variables.scss';
+@import '../styles/global/mixins.scss';
+
+.isDisabled {
+  color: $steel;
+}
+
+.input-info,
+.input-text-info {
+  display: inline-block;
+  padding-top: 6px;
+  font-size: 12px;
+  line-height: 18px;
+
+  &.danger {
+    color: $ron-burgundy;
+  }
+}
+.simple-select-wrap {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: default;
+
+  .simple-select-label {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+  }
+
+  &.is-required {
+    label::after {
+      position: absolute;
+      top: 4px;
+      width: 4px;
+      height: 4px;
+      margin-left: 5px;
+      background: $ron-burgundy;
+      border-radius: 4px;
+      content: '';
+    }
+  }
+
+  &.is-disabled {
+    .simple-select-label {
+      cursor: default;
+    }
+
+    .simple-select-label,
+    .simple-select::after {
+      color: $select-disabled-color;
+    }
+  }
+
+  &.is-error {
+    .simple-select-label {
+      color: $slate-60;
+    }
+
+    .simple-select {
+      border-bottom-color: $ron-burgundy;
+      box-shadow: $ron-burgundy 0 1px 0;
+    }
+  }
+}
+
+.simple-select {
+  font-size: 13px;
+  line-height: 24px;
+
+  .simple-select-control {
+    min-height: auto;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $slate-20;
+    border-radius: 0;
+
+    &::after {
+      @include icon-font-base;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      color: $slate-60;
+      content: $icon-caret;
+    }
+
+    &:hover {
+      border: 0;
+      border-bottom: 1px solid $slate-20;
+    }
+
+    &.is-active {
+      border-bottom-color: $sg-blue;
+      box-shadow: $sg-blue 0 1px 0;
+
+      &:hover {
+        border-bottom-color: $sg-blue;
+      }
+    }
+
+    &.is-disabled {
+      border-bottom-color: $select-disabled-color;
+    }
+  }
+
+  .simple-select-options {
+    @include dropdown-shadow;
+    position: absolute;
+    z-index: 1051;
+    display: block;
+    width: 100%;
+    background-color: $slate-02;
+    border: 1px solid $slate-10;
+    border-radius: $border-radius;
+  }
+
+  .simple-select-option {
+    padding: 9px 30px;
+    color: $slate-80;
+    line-height: 18px;
+    outline: none;
+
+    &:hover {
+      background-color: $slate-10;
+    }
+
+    &.is-selected {
+      color: $slate;
+      background-color: $slate-20;
+    }
+  }
+}
