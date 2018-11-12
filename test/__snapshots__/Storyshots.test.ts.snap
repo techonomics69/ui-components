@@ -3216,6 +3216,19 @@ exports[`Storyshots ConfirmationModal ConfirmationModal with plain contents 1`] 
 </div>
 `;
 
+exports[`Storyshots Counter Counter 1`] = `
+<div
+  className="counter"
+>
+  Credits
+  <span
+    className="counter counter-bubble"
+  >
+    1000
+  </span>
+</div>
+`;
+
 exports[`Storyshots Divider Divider (Thin) 1`] = `
 <hr
   className="is-thin"
