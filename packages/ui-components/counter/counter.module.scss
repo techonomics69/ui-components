@@ -1,0 +1,18 @@
+@import '../styles/global/variables.scss';
+
+.counter {
+  font-size: $scale-base-up-01;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  &-bubble {
+    position: relative;
+    top: -1px;
+    padding: 4px 8px;
+    margin-left: 5px;
+    font-size: 11px;
+    color: $white;
+    background: $slate;
+    border-radius: 25px;
+  }
+}
