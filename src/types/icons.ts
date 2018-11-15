@@ -36,6 +36,7 @@ export type IconType =
   | 'ellipsis'
   | 'ellipsis-vertical'
   | 'export'
+  | 'forms'
   | 'gear'
   | 'help'
   | 'help-error'
