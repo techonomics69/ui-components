@@ -14,7 +14,9 @@ export interface AccordionPanelProps {
     title?: React.ReactNode;
 }
 declare const AccordionPanelSFC: React.SFC<AccordionPanelProps>;
-export declare class AccordionPanel extends React.Component<AccordionPanelProps, any> {
+export declare class AccordionPanel extends React.Component<AccordionPanelProps, {
+    open: boolean;
+}> {
     readonly state: {
         open: boolean;
     };

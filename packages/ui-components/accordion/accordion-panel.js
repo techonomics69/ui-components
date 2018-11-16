@@ -34,7 +34,13 @@ export class AccordionPanel extends React.Component {
             open: openProps(this.props),
         };
         this.onAccordionPanelClick = (e) => {
-            this.setState({ open: !this.state.open });
+            const target = e.target;
+            // Accordion titles support checkboxes within them -- if the checkbox was clicked, don't
+            // toggle the open state.
+            if (target.closest && !!target.closest('.input-checkbox-wrap')) {
+                return;
+            }
+            this.setState(({ open }) => ({ open: !open }));
         };
     }
     render() {

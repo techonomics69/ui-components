@@ -1,7 +1,8 @@
 import { storiesOf } from '@storybook/react';
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 import Accordion, { AccordionPanel, AccordionPanelDescription, AccordionPanelIcon, AccordionPanelTitle, } from '.';
 import Card from '../card';
+import Checkbox from '../checkbox';
 import Icon from '../icon';
 const stories = storiesOf('Accordion', module);
 const LOREM_IPSUM = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -34,6 +35,26 @@ stories.add('Accordion - Nested', () => {
                     React.createElement("p", null, LOREM_IPSUM)))),
         React.createElement(AccordionPanel, { title: React.createElement(AccordionPanelTitle, { text: "Primary Accordion Title 2" }) },
             React.createElement("p", null, LOREM_IPSUM))));
+});
+stories.add('Accordion - Nested with checkbox', () => {
+    class Example extends Component {
+        constructor() {
+            super(...arguments);
+            this.state = { checked: true };
+            this.onCheckboxChange = (e) => {
+                this.setState(({ checked }) => ({ checked: !checked }));
+            };
+        }
+        render() {
+            const { checked } = this.state;
+            return (React.createElement(Accordion, null,
+                React.createElement(AccordionPanel, { title: React.createElement(AccordionPanelTitle, { text: "Fields" }), open: true },
+                    React.createElement(Accordion, null,
+                        React.createElement(AccordionPanel, { title: (React.createElement(Checkbox, { id: "accordion-checkbox-example", label: "First Name", checked: checked, onChange: this.onCheckboxChange })) },
+                            React.createElement("p", null, LOREM_IPSUM))))));
+        }
+    }
+    return (React.createElement(Example, null));
 });
 stories.add('Accordion - Large', () => (React.createElement(Accordion, { large: true },
     React.createElement(AccordionPanel, { title: React.createElement(Fragment, null,
