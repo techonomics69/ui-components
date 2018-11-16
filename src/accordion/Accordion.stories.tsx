@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react';
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import Accordion, {
   AccordionPanel,
@@ -7,8 +7,8 @@ import Accordion, {
   AccordionPanelIcon,
   AccordionPanelTitle,
 } from '.';
-import { Breadcrumb } from '../breadcrumb';
 import Card from '../card';
+import Checkbox from '../checkbox';
 import Icon from '../icon';
 
 const stories = storiesOf('Accordion', module);
@@ -71,6 +71,43 @@ stories.add('Accordion - Nested', () => {
         <p>{LOREM_IPSUM}</p>
       </AccordionPanel>
     </Accordion>
+  );
+});
+
+stories.add('Accordion - Nested with checkbox', () => {
+  class Example extends Component<{}, { checked: boolean }> {
+    public state = { checked: true };
+    public render() {
+      const { checked } = this.state;
+
+      return (
+        <Accordion>
+          <AccordionPanel
+            title={<AccordionPanelTitle text="Fields" />}
+            open
+          >
+            <Accordion>
+              <AccordionPanel title={(
+                <Checkbox
+                  id="accordion-checkbox-example"
+                  label="First Name"
+                  checked={checked}
+                  onChange={this.onCheckboxChange}
+                />
+              )}>
+                <p>{LOREM_IPSUM}</p>
+              </AccordionPanel>
+            </Accordion>
+          </AccordionPanel>
+        </Accordion>
+      );
+    }
+    private onCheckboxChange = (e: React.MouseEvent) => {
+      this.setState(({ checked }) => ({ checked: !checked }));
+    }
+  }
+  return (
+    <Example />
   );
 });
 

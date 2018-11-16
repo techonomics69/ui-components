@@ -608,6 +608,117 @@ exports[`Storyshots Accordion Accordion - Nested 1`] = `
 </div>
 `;
 
+exports[`Storyshots Accordion Accordion - Nested with checkbox 1`] = `
+<div
+  className="accordion-wrapper"
+>
+  <div
+    className="accordion-panel is-visible"
+  >
+    <div
+      className="accordion-title"
+      onClick={[Function]}
+    >
+      <h2
+        className={undefined}
+        style={undefined}
+      >
+        Fields
+      </h2>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        className={undefined}
+        style={Object {}}
+      >
+        <div
+          className="accordion-content"
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <div
+            className="accordion-wrapper"
+          >
+            <div
+              className="accordion-panel"
+            >
+              <div
+                className="accordion-title"
+                onClick={[Function]}
+              >
+                <div
+                  className="input-checkbox-wrap"
+                >
+                  <input
+                    checked={true}
+                    disabled={undefined}
+                    id="accordion-checkbox-example"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value={undefined}
+                  />
+                  <label
+                    className="input-checkbox-label"
+                    htmlFor="accordion-checkbox-example"
+                  >
+                    First Name
+                  </label>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="rah-static rah-static--height-zero"
+                style={
+                  Object {
+                    "height": 0,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <div
+                  className={undefined}
+                  style={Object {}}
+                >
+                  <div
+                    className="accordion-content"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Vestibulum vehicula semper eleifend. Morbi tincidunt, magna non hendrerit malesuada,
+  ex est pulvinar nisi, ac luctus lorem quam vel nibh. Integer at tortor luctus
+  dui egestas consequat. Donec ut nibh lorem. Phasellus sed sapien lobortis,
+  egestas lacus nec, vehicula lorem. Donec hendrerit nibh sed velit placerat
+  aliquet. Morbi tristique pretium lorem, nec pretium turpis mattis vel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Accordion Accordion - Standard 1`] = `
 <div
   className="accordion-wrapper"

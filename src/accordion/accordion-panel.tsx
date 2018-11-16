@@ -55,7 +55,7 @@ const AccordionPanelSFC: React.SFC<AccordionPanelProps> = ({
   );
 };
 const openProps = (props: AccordionPanelProps) => props.open;
-export class AccordionPanel extends React.Component<AccordionPanelProps, any> {
+export class AccordionPanel extends React.Component<AccordionPanelProps, { open: boolean }> {
   public readonly state = {
     open: openProps(this.props),
   };
@@ -71,8 +71,17 @@ export class AccordionPanel extends React.Component<AccordionPanelProps, any> {
       </AccordionPanelSFC>
     );
   }
-  private onAccordionPanelClick = (e: any) => {
-    this.setState({ open: !this.state.open });
+
+  private onAccordionPanelClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+
+    // Accordion titles support checkboxes within them -- if the checkbox was clicked, don't
+    // toggle the open state.
+    if (target.closest && !!target.closest('.input-checkbox-wrap')) {
+      return;
+    }
+
+    this.setState(({ open }) => ({ open: !open }));
   };
 }
 
