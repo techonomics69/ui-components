@@ -15,5 +15,11 @@ stories.add('Banner Messages', () => (
     <BannerMessage type="beta">
       Beta banner with <strong>some jsx</strong>
     </BannerMessage>
+    <br />
+    <br />
+    <BannerMessage type="warning">
+      You are currently on a <strong>Deprecated Plan</strong> which we no longer
+      offer.
+    </BannerMessage>
   </Fragment>
 ));

@@ -4,10 +4,10 @@ import Styles from './banner-message.module.scss';
 
 export interface BannerMessageProps {
   className?: string;
-  type: 'beta' | 'info';
+  type: 'beta' | 'info' | 'warning';
 }
 
-const BannerMessage: React.SFC<BannerMessageProps> = ({
+export const BannerMessage: React.SFC<BannerMessageProps> = ({
   className,
   type,
   children,
@@ -23,4 +23,30 @@ const BannerMessage: React.SFC<BannerMessageProps> = ({
   </div>
 );
 
-export default BannerMessage;
+const DeprecatedBannerMessage: React.SFC<BannerMessageProps> = ({
+  className,
+  type,
+  children,
+}) => {
+  const deprecationMessage1 =
+    'WARNING: This export is being deprecated. Please update to use the following export:';
+  const deprecationMessage2 =
+    "import { BannerMessage } from '@sendgrid/ui-components';";
+  // tslint:disable-next-line: no-console
+  console.warn(deprecationMessage1);
+  // tslint:disable-next-line: no-console
+  console.warn(deprecationMessage2);
+  return (
+    <div
+      className={cn(
+        Styles['banner-message'],
+        className,
+        Styles[`banner-message-${type}`]
+      )}
+    >
+      {children}
+    </div>
+  );
+};
+
+export default DeprecatedBannerMessage;

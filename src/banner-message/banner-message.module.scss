@@ -24,4 +24,10 @@
     background-color: rgba($sg-blue, 0.05);
     border-left: 2px solid $sg-blue;
   }
+
+  &-warning {
+    background-color: $alert-warning;
+    border-left: 2px solid $alert-warning-text;
+    color: $alert-warning-text;
+  }
 }

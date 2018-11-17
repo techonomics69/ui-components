@@ -9,6 +9,7 @@ export {
 export { Action, Actions, ActionsCell } from './actions';
 export { Alert } from './alert';
 export { Badge } from './badge';
+export { BannerMessage } from './banner-message';
 export { Breadcrumb } from './breadcrumb';
 export { Button, Buttonized } from './button';
 export { ButtonList } from './button-list';
