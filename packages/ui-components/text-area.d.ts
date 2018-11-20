@@ -27,6 +27,7 @@ export declare class TextArea extends Component<TextAreaProps & React.InputHTMLA
         height: string;
     };
     textareaMeasurer: HTMLTextAreaElement;
+    componentDidMount(): void;
     componentDidUpdate({value: previousValue}: TextAreaProps): void;
     calculateHeight: () => string;
     setFocused: () => void;
