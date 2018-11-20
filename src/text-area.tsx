@@ -36,6 +36,13 @@ export class TextArea extends Component<
   // was causing some weirdness.
   public textareaMeasurer: HTMLTextAreaElement;
 
+
+  // The textarea defaults to 25px high which may be too small to contain a long initial value.
+  // so reset height after the initial mount, when we can accurately measure the size.
+  public componentDidMount() {
+    this.setState({ height: this.calculateHeight() });
+  }
+
   public componentDidUpdate({ value: previousValue }: TextAreaProps) {
     const { value } = this.props;
 
@@ -73,10 +80,12 @@ export class TextArea extends Component<
       value,
       tooltip,
       tooltipDirection,
+
+      // attributes are added to dom nodes and maxHeight is invalid, resulting in a console warning.
+      maxHeight,
       ...attributes
     } = this.props;
 
-    const domAttributes = { ...attributes, maxHeight: null as number };
     const { focused, height } = this.state;
     const hasValue = !!value;
 
@@ -111,12 +120,13 @@ export class TextArea extends Component<
           onBlur={this.setBlurred}
           disabled={disabled}
           style={{ height }}
-          {...domAttributes}
+          {...attributes}
         />
         <textarea
           value={value}
           style={{ height: 0, visibility: 'hidden', border: 0 }}
           ref={textarea => (this.textareaMeasurer = textarea)}
+          readOnly
         />
         {info && (
           <span
