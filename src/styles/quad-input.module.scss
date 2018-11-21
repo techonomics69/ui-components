@@ -1,9 +1,25 @@
+@import '../styles/global/variables.scss';
+
 .quad-input-wrap {
   display: flex;
   justify-content: space-between;
   min-width: 210px; // this width will allow for 2 visible digits in each input with px units.
-  :global .input-text-wrap {
+  :global(.input-text-wrap) {
     width: 25%;
     margin-right: 7px;
+    &:global(:not(.has-value)) {
+      &:after {
+        color: $slate-20;
+      }
+    }
+    ::-webkit-input-placeholder {
+      color: $slate-20;
+    }
+    ::-moz-placeholder {
+      color: $slate-20;
+    }
+    :-ms-input-placeholder {
+      color: $slate-20;
+    }
   }
 }
