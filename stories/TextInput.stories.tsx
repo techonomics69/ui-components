@@ -53,6 +53,18 @@ stories.add('Text Input Simple', () => (
   />
 ));
 
+stories.add('Text Input with Placeholder', () => (
+  <StatefulTextInput
+    type="number"
+    isValid={true}
+    id="test-input-placeholder"
+    onChange={action('Input Changed')}
+    onBlur={action('onBlur Called')}
+    placeholder="10"
+    units="px"
+  />
+));
+
 stories.add('Text Input Simple with a value', () => (
   <StatefulTextInput
     type="text"

@@ -18111,6 +18111,35 @@ exports[`Storyshots Text Input Text Input With Units (px) 1`] = `
 </div>
 `;
 
+exports[`Storyshots Text Input Text Input with Placeholder 1`] = `
+<div
+  className="input-text-wrap has-units"
+  data-units="px"
+  style={Object {}}
+>
+  <label
+    className="input-text-label"
+    htmlFor="test-input-placeholder"
+  >
+    
+  </label>
+  <input
+    aria-describedby=""
+    id="test-input-placeholder"
+    name={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="10"
+    step={1}
+    type="number"
+    value=""
+  />
+  
+  
+</div>
+`;
+
 exports[`Storyshots ToggleButtons Toggle Buttons 1`] = `
 <div
   className="btn-group"
