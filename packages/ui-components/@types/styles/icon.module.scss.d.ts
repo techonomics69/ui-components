@@ -1,5 +1,6 @@
 export const sgIcon: string;
 export const isSize20: string;
+export const isSize24: string;
 export const isSize30: string;
 export const isSize40: string;
 export const isSize60: string;

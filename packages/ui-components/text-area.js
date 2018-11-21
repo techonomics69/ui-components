@@ -26,6 +26,11 @@ export class TextArea extends Component {
         this.setFocused = () => this.setState({ focused: true });
         this.setBlurred = () => this.setState({ focused: false });
     }
+    // The textarea defaults to 25px high which may be too small to contain a long initial value.
+    // so reset height after the initial mount, when we can accurately measure the size.
+    componentDidMount() {
+        this.setState({ height: this.calculateHeight() });
+    }
     componentDidUpdate({ value: previousValue }) {
         const { value } = this.props;
         if (previousValue === value) {
@@ -34,8 +39,9 @@ export class TextArea extends Component {
         this.setState({ height: this.calculateHeight() });
     }
     render() {
-        const _a = this.props, { children, disabled, error, id, info, label, onChange: handleChange, required, scrollable, value, tooltip, tooltipDirection } = _a, attributes = __rest(_a, ["children", "disabled", "error", "id", "info", "label", "onChange", "required", "scrollable", "value", "tooltip", "tooltipDirection"]);
-        const domAttributes = Object.assign({}, attributes, { maxHeight: null });
+        const _a = this.props, { children, disabled, error, id, info, label, onChange: handleChange, required, scrollable, value, tooltip, tooltipDirection, 
+        // attributes are added to dom nodes and maxHeight is invalid, resulting in a console warning.
+        maxHeight } = _a, attributes = __rest(_a, ["children", "disabled", "error", "id", "info", "label", "onChange", "required", "scrollable", "value", "tooltip", "tooltipDirection", "maxHeight"]);
         const { focused, height } = this.state;
         const hasValue = !!value;
         return (React.createElement("div", { className: cn('textarea-wrap', Styles['textarea-wrap'], {
@@ -53,8 +59,8 @@ export class TextArea extends Component {
                 'is-scrollable': scrollable,
             }) },
             React.createElement("label", { className: cn('textarea-label', Styles['textarea-label']), htmlFor: id }, label),
-            React.createElement("textarea", Object.assign({ id: id, value: value, onChange: handleChange, onFocus: this.setFocused, onBlur: this.setBlurred, disabled: disabled, style: { height } }, domAttributes)),
-            React.createElement("textarea", { value: value, style: { height: 0, visibility: 'hidden', border: 0 }, ref: textarea => (this.textareaMeasurer = textarea) }),
+            React.createElement("textarea", Object.assign({ id: id, value: value, onChange: handleChange, onFocus: this.setFocused, onBlur: this.setBlurred, disabled: disabled, style: { height } }, attributes)),
+            React.createElement("textarea", { value: value, style: { height: 0, visibility: 'hidden', border: 0 }, ref: textarea => (this.textareaMeasurer = textarea), readOnly: true }),
             info && (React.createElement("span", { className: cn('textarea-info', Styles['textarea-info'], {
                     [Styles['is-error']]: error,
                     'is-error': error,
