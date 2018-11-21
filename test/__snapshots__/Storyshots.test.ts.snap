@@ -17754,7 +17754,7 @@ exports[`Storyshots Text Area With Tooltip [skip] 1`] = `
 </div>
 `;
 
-exports[`Storyshots Text Input Quad Input 1`] = `
+exports[`Storyshots Text Input Quad Input Standard 1`] = `
 <div
   className="quad-input-wrap"
 >
@@ -17855,6 +17855,117 @@ exports[`Storyshots Text Input Quad Input 1`] = `
       onChange={[Function]}
       onFocus={[Function]}
       placeholder={undefined}
+      step={1}
+      type="number"
+      value={4}
+    />
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text Input Quad Input with Placeholders 1`] = `
+<div
+  className="quad-input-wrap"
+>
+  <div
+    className="input-text-wrap has-space-top has-units has-value"
+    data-units="px"
+    style={Object {}}
+  >
+    <label
+      className="input-text-label"
+      htmlFor="quad-input-top"
+    >
+      
+    </label>
+    <input
+      aria-describedby=""
+      id="quad-input-top"
+      name="top"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="10"
+      step={1}
+      type="number"
+      value={1}
+    />
+    
+    
+  </div>
+  <div
+    className="input-text-wrap has-space-right has-units has-value"
+    data-units="px"
+    style={Object {}}
+  >
+    <label
+      className="input-text-label"
+      htmlFor="quad-input-right"
+    >
+      
+    </label>
+    <input
+      aria-describedby=""
+      id="quad-input-right"
+      name="right"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="0"
+      step={1}
+      type="number"
+      value={2}
+    />
+    
+    
+  </div>
+  <div
+    className="input-text-wrap has-space-bottom has-units has-value"
+    data-units="px"
+    style={Object {}}
+  >
+    <label
+      className="input-text-label"
+      htmlFor="quad-input-bottom"
+    >
+      
+    </label>
+    <input
+      aria-describedby=""
+      id="quad-input-bottom"
+      name="bottom"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="10"
+      step={1}
+      type="number"
+      value={3}
+    />
+    
+    
+  </div>
+  <div
+    className="input-text-wrap has-space-left has-units has-value"
+    data-units="px"
+    style={Object {}}
+  >
+    <label
+      className="input-text-label"
+      htmlFor="quad-input-left"
+    >
+      
+    </label>
+    <input
+      aria-describedby=""
+      id="quad-input-left"
+      name="left"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="0"
       step={1}
       type="number"
       value={4}
