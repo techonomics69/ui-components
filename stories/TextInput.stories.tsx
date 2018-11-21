@@ -179,7 +179,9 @@ stories.add('Text Input With Units (%)', () => (
 
 stories.add('Quad Input Standard', () => <QuadInputContainer />);
 
-stories.add('Quad Input with Placeholders', () => <QuadInputContainer placeholders={{bottom: 10, left: 0, top: 10, right: 0}} />);
+stories.add('Quad Input with All Placeholders', () => <QuadInputContainer placeholders={{bottom: 10, left: 0, top: 10, right: 0}} />);
+
+stories.add('Quad Input with Some Placeholders', () => <QuadInputContainer placeholders={{bottom: 10, left: 0}} />);
 
 stories.add('Stateless Text Input with a Value Passed as a Prop', () => (
   <TextInput

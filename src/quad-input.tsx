@@ -34,13 +34,21 @@ export class QuadInput extends PureComponent<QuadInputProps> {
             name={inputName}
             onChange={this.handleChange}
             icon={inputName}
-            placeholder={placeholders && String(placeholders[inputName])}
+            placeholder={this.getPlaceholder(inputName)}
             units={units}
             value={values[inputName]}
           />
         ))}
       </div>
     );
+  }
+
+  private getPlaceholder(inputName: string) {
+    const { placeholders } = this.props;
+    if (placeholders && placeholders[inputName] === 0) {
+      return '0';
+    }
+    return placeholders && String(placeholders[inputName] || '');
   }
 
   private handleChange = (e: any, value: ReactText) => {
