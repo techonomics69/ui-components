@@ -9,6 +9,7 @@ export type QuadInputValues = { [k in QuadInputs]: number };
 export interface QuadInputProps {
   id: string;
   onChange: (e: any, values: QuadInputValues) => void;
+  placeholders?: QuadInputValues;
   units: Units;
   values: QuadInputValues;
 }
@@ -21,7 +22,7 @@ export class QuadInput extends PureComponent<QuadInputProps> {
   }
 
   public render() {
-    const { id, units, values, ...attributes } = this.props;
+    const { id, placeholders, units, values, ...attributes } = this.props;
     return (
       <div className={Styles['quad-input-wrap']}>
         {inputs.map(inputName => (
@@ -33,12 +34,21 @@ export class QuadInput extends PureComponent<QuadInputProps> {
             name={inputName}
             onChange={this.handleChange}
             icon={inputName}
+            placeholder={this.getPlaceholder(inputName)}
             units={units}
             value={values[inputName]}
           />
         ))}
       </div>
     );
+  }
+
+  private getPlaceholder(inputName: string) {
+    const { placeholders } = this.props;
+    if (placeholders && placeholders[inputName] === 0) {
+      return '0';
+    }
+    return placeholders && String(placeholders[inputName] || '');
   }
 
   private handleChange = (e: any, value: ReactText) => {

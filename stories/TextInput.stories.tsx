@@ -25,6 +25,7 @@ class QuadInputContainer extends Component<any, any> {
       <QuadInput
         id="quad-input"
         onChange={this.onChange} 
+        placeholders={this.props.placeholders}
         units="px"
         values={this.state.values}
       />
@@ -32,6 +33,7 @@ class QuadInputContainer extends Component<any, any> {
   }
 
   private onChange = (e: any, v: any) => {
+    v[e.target.name] = e.target.value ? e.target.value : undefined;
     const { top, right, bottom, left } = v;
     action(`Quad Input Changed, { top: ${top}, right: ${right}, bottom: ${bottom}, left: ${left} }`)();
 
@@ -48,6 +50,18 @@ stories.add('Text Input Simple', () => (
     id="test-input-simple"
     onChange={action('Input Changed')}
     onBlur={action('onBlur Called')}
+  />
+));
+
+stories.add('Text Input with Placeholder', () => (
+  <StatefulTextInput
+    type="number"
+    isValid={true}
+    id="test-input-placeholder"
+    onChange={action('Input Changed')}
+    onBlur={action('onBlur Called')}
+    placeholder="10"
+    units="px"
   />
 ));
 
@@ -163,7 +177,11 @@ stories.add('Text Input With Units (%)', () => (
   </Row>
 ));
 
-stories.add('Quad Input', () => <QuadInputContainer />);
+stories.add('Quad Input Standard', () => <QuadInputContainer />);
+
+stories.add('Quad Input with All Placeholders', () => <QuadInputContainer placeholders={{bottom: 10, left: 0, top: 10, right: 0}} />);
+
+stories.add('Quad Input with Some Placeholders', () => <QuadInputContainer placeholders={{bottom: 10, left: 0}} />);
 
 stories.add('Stateless Text Input with a Value Passed as a Prop', () => (
   <TextInput
