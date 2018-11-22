@@ -25,6 +25,21 @@ input {
   padding-top: 15px;
   margin-bottom: 20px;
 
+  &:global(.has-units:not(.has-value)) {
+    &:after {
+      color: $slate-20;
+    }
+  }
+  input[type='number']::-webkit-input-placeholder {
+    color: $slate-20;
+  }
+  input[type='number']::-moz-placeholder {
+    color: $slate-20;
+  }
+  input[type='number']:-ms-input-placeholder {
+    color: $slate-20;
+  }
+
   &.is-required {
     label::after {
       position: absolute;

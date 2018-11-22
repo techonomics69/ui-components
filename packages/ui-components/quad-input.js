@@ -20,8 +20,15 @@ export class QuadInput extends PureComponent {
         };
     }
     render() {
-        const _a = this.props, { id, units, values } = _a, attributes = __rest(_a, ["id", "units", "values"]);
-        return (React.createElement("div", { className: Styles['quad-input-wrap'] }, inputs.map(inputName => (React.createElement(TextInput, Object.assign({}, attributes, { key: `quad-input-column-${inputName}`, id: `${id}-${inputName}`, type: "number", name: inputName, onChange: this.handleChange, icon: inputName, units: units, value: values[inputName] }))))));
+        const _a = this.props, { id, placeholders, units, values } = _a, attributes = __rest(_a, ["id", "placeholders", "units", "values"]);
+        return (React.createElement("div", { className: Styles['quad-input-wrap'] }, inputs.map(inputName => (React.createElement(TextInput, Object.assign({}, attributes, { key: `quad-input-column-${inputName}`, id: `${id}-${inputName}`, type: "number", name: inputName, onChange: this.handleChange, icon: inputName, placeholder: this.getPlaceholder(inputName), units: units, value: values[inputName] }))))));
+    }
+    getPlaceholder(inputName) {
+        const { placeholders } = this.props;
+        if (placeholders && placeholders[inputName] === 0) {
+            return '0';
+        }
+        return placeholders && String(placeholders[inputName] || '');
     }
 }
 export default QuadInput;
