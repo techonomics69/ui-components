@@ -12,6 +12,7 @@ export const sgLoader: string;
 export const badge: string;
 export const btnPrimary: string;
 export const isActive: string;
+export const btnTertiary: string;
 export const btnSmall: string;
 export const btnDropdown: string;
 export const btnDropdownGear: string;

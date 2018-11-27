@@ -1,56 +1,56 @@
 @import './global/variables.scss';
 @import './global/mixins';
 
-$btn-primary-bg:                $sg-blue-80;
-$btn-primary-bg-hover:          $sg-blue;
-$btn-primary-border:            $sg-blue;
-$btn-primary-color:             $white;
-$btn-primary-badge-bg:          $white;
-$btn-primary-badge-color:       $sg-blue;
+$btn-primary-bg: $sg-blue-80;
+$btn-primary-bg-hover: $sg-blue;
+$btn-primary-border: $sg-blue;
+$btn-primary-color: $white;
+$btn-primary-badge-bg: $white;
+$btn-primary-badge-color: $sg-blue;
 
-$btn-secondary-bg:              $white;
-$btn-secondary-bg-hover:        $sg-blue-10;
-$btn-secondary-border:          $sg-blue-80;
-$btn-secondary-color:           $sg-blue;
-$btn-secondary-badge-bg:        $sg-blue;
-$btn-secondary-badge-color:     $white;
+$btn-secondary-bg: $white;
+$btn-secondary-bg-hover: $sg-blue-10;
+$btn-secondary-border: $sg-blue-80;
+$btn-secondary-color: $sg-blue;
+$btn-secondary-badge-bg: $sg-blue;
+$btn-secondary-badge-color: $white;
 
-$btn-danger-bg:                 rgba($ron-burgundy, 0.8);
-$btn-danger-bg-hover:           $ron-burgundy;
-$btn-danger-border:             $ron-burgundy;
-$btn-danger-color:              $white;
-$btn-danger-badge-bg:           $white;
-$btn-danger-badge-color:        $ron-burgundy;
+$btn-danger-bg: rgba($ron-burgundy, 0.8);
+$btn-danger-bg-hover: $ron-burgundy;
+$btn-danger-border: $ron-burgundy;
+$btn-danger-color: $white;
+$btn-danger-badge-bg: $white;
+$btn-danger-badge-color: $ron-burgundy;
 
-$btn-dark-bg:                   transparent;
-$btn-dark-bg-hover:             rgba($white, 0.1);
-$btn-dark-border:               rgba($white, 0.6);
-$btn-dark-color:                $white;
-$btn-dark-badge-bg:             $white;
-$btn-dark-badge-color:          $slate;
+$btn-dark-bg: transparent;
+$btn-dark-bg-hover: rgba($white, 0.1);
+$btn-dark-border: rgba($white, 0.6);
+$btn-dark-color: $white;
+$btn-dark-badge-bg: $white;
+$btn-dark-badge-color: $slate;
 
-$btn-disabled-bg:               $steel;
-$btn-disabled-border:           $steel;
-$btn-disabled-color:            $white;
-$btn-disabled-secondary-bg:     $white;
+$btn-disabled-bg: $steel;
+$btn-disabled-border: $steel;
+$btn-disabled-color: $white;
+$btn-disabled-secondary-bg: $white;
 $btn-disabled-secondary-border: $steel;
-$btn-disabled-secondary-color:  $steel;
+$btn-disabled-secondary-color: $steel;
 
-$btn-gear-color:                $slate-60;
-$btn-gear-primary-color:        $white;
+$btn-gear-color: $slate-60;
+$btn-gear-primary-color: $white;
 
-$btn-group-bg:                  $white;
-$btn-group-bg-hover:            rgba($sg-blue, 0.1);
-$btn-group-bg-active:           $sg-blue-80;
-$btn-group-border:              rgba($sg-blue, 0.8);
-$btn-group-border-active:       $sg-blue;
-$btn-group-color:               $sg-blue;
-$btn-group-color-active:        $white;
+$btn-group-bg: $white;
+$btn-group-bg-hover: rgba($sg-blue, 0.1);
+$btn-group-bg-active: $sg-blue-80;
+$btn-group-border: rgba($sg-blue, 0.8);
+$btn-group-border-active: $sg-blue;
+$btn-group-color: $sg-blue;
+$btn-group-color-active: $white;
 
-$btn-selectable-border:        $slate-20;
-$btn-selectable-border-hover:  $sg-blue-40;
+$btn-selectable-border: $slate-20;
+$btn-selectable-border-hover: $sg-blue-40;
 $btn-selectable-border-active: $sg-blue;
-$btn-selectable-color:         $slate-80;
+$btn-selectable-color: $slate-80;
 
 .btn-list {
   font-size: 0;
@@ -170,6 +170,18 @@ $btn-selectable-color:         $slate-80;
   }
 }
 
+.btn-tertiary {
+  color: $btn-tertiary-color;
+  background-color: $btn-tertiary-bg;
+  border-color: $btn-tertiary-color;
+  &:focus,
+  &:hover {
+    color: $btn-tertiary-color-hover;
+  }
+  &.has-badge .badge {
+    background-color: $btn-tertiary-badge-bg;
+  }
+}
 .btn-danger {
   color: $btn-danger-color;
   background-color: $btn-danger-bg;
@@ -187,7 +199,7 @@ $btn-selectable-color:         $slate-80;
     color: $btn-danger-color;
   }
 
-  &.has-badge{
+  &.has-badge {
     :global {
       .badge {
         color: $btn-danger-badge-color;
