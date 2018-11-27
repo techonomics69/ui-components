@@ -51,6 +51,7 @@ export const sgIconList: string;
 export const sgIconLocked: string;
 export const sgIconMail: string;
 export const sgIconMailSearch: string;
+export const sgIconMcPreview: string;
 export const sgIconMobileView: string;
 export const sgIconPencil: string;
 export const sgIconPeople: string;

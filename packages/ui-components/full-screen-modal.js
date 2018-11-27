@@ -9,7 +9,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Icon } from './icon';
+import FlexHeader from './flexHeader';
 import cn from './utilities/classnames';
 import { modalWillReceiveProps } from './utilities/modals';
 import Styles from './styles/fullscreen-modal.module.scss';
@@ -18,16 +18,10 @@ export class FullscreenModal extends Component {
         modalWillReceiveProps(this.props, prevProps);
     }
     render() {
-        const _a = this.props, { bodyNode, children, className, hasPadding, isOpen, modalContainer, onClose, renderHeaderActions, title, tooltipText } = _a, attributes = __rest(_a, ["bodyNode", "children", "className", "hasPadding", "isOpen", "modalContainer", "onClose", "renderHeaderActions", "title", "tooltipText"]);
+        const _a = this.props, { bodyNode, children, className, hasPadding, isOpen, modalContainer, onClose, renderHeaderActions, headerTabs, title, tooltipText } = _a, attributes = __rest(_a, ["bodyNode", "children", "className", "hasPadding", "isOpen", "modalContainer", "onClose", "renderHeaderActions", "headerTabs", "title", "tooltipText"]);
+        const headerActions = renderHeaderActions && renderHeaderActions();
         return ReactDOM.createPortal(React.createElement("div", Object.assign({ className: cn('modal-fullscreen', Styles['modal-fullscreen'], { [Styles['is-open']]: isOpen }, className) }, attributes),
-            React.createElement("header", { className: Styles['modal-fullscreen-header'] },
-                React.createElement("a", { className: Styles['modal-close'], onClick: onClose },
-                    React.createElement(Icon, { type: "x" })),
-                React.createElement("h2", null,
-                    title,
-                    tooltipText && (React.createElement("span", { "data-tooltip": tooltipText, "data-tooltip-pos": "down" },
-                        React.createElement(Icon, { type: "info-circle" })))),
-                renderHeaderActions && renderHeaderActions()),
+            React.createElement(FlexHeader, { headerActions: headerActions, headerTabs: headerTabs, onClose: onClose, title: title, tooltipText: tooltipText }),
             React.createElement("div", { className: cn('modal-content', { 'has-padding': hasPadding }) }, children)), modalContainer);
     }
 }

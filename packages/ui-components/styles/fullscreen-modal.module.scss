@@ -38,24 +38,6 @@
   &-header [data-tooltip] .sg-icon:hover {
     color: $white;
   }
-  :global {
-    .btn-list {
-      margin-right: 20px;
-      justify-self: flex-end;
-    }
-  }
-  .modal-close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    cursor: pointer;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-  }
-  .modal-close i {
-    font-size: 20px;
-  }
   .modal-content {
     height: calc(100vh - 70px);
     overflow-y: scroll;

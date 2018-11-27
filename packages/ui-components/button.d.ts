@@ -1,7 +1,7 @@
 /// <reference types="react" />
 import React from 'react';
 import { IconType } from './types/icons';
-export declare type ButtonType = 'primary' | 'secondary' | 'danger' | 'group-item';
+export declare type ButtonType = 'primary' | 'secondary' | 'tertiary' | 'danger' | 'group-item';
 export interface AllButtonProps {
     disabled?: boolean;
     loading?: boolean;

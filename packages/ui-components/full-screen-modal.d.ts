@@ -9,6 +9,7 @@ export interface FullScreenModelProps extends ModalProps {
     onClose?: (event: any) => void;
     modalContainer?: Element;
     renderHeaderActions?: () => React.ReactNode;
+    headerTabs?: React.ReactNode;
     title: string;
     tooltipText?: string;
 }

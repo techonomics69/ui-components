@@ -12,9 +12,9 @@ import cn from '../utilities/classnames';
 import Styles from './counter.module.scss';
 export const Counter = (_a) => {
     var { className, text, count } = _a, attributes = __rest(_a, ["className", "text", "count"]);
-    return (React.createElement("div", Object.assign({ className: cn(Styles.counter, className, Styles[`counter`]) }, attributes),
+    return (React.createElement("div", Object.assign({ className: cn('counter', Styles.counter, className, Styles[`counter`]) }, attributes),
         text,
-        React.createElement("span", { className: cn(Styles.counter, className, Styles[`counter-bubble`]) }, count)));
+        React.createElement("span", { className: cn('counter-bubble', Styles[`counter-bubble`]) }, count)));
 };
 Counter.defaultProps = {
     className: '',
