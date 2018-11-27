@@ -12,8 +12,8 @@ import cn from './utilities/classnames';
 export interface FlexHeaderProps {
   className?: string;
   creditsCount?: string;
-  renderActions?: () => React.ReactNode;
-  renderTabs?: () => React.ReactNode;
+  headerActions?: React.ReactNode;
+  headerTabs?: React.ReactNode;
   title: string;
   tooltipText?: string;
   onClose?: (event: any) => void;
@@ -25,8 +25,8 @@ export class FlexHeader extends Component<FlexHeaderProps> {
       className,
       creditsCount,
       onClose,
-      renderActions,
-      renderTabs,
+      headerActions,
+      headerTabs,
       title,
       tooltipText,
       ...attributes
@@ -50,7 +50,7 @@ export class FlexHeader extends Component<FlexHeaderProps> {
               )}
             </h3>
           </div>
-          {renderTabs && renderTabs()}
+          {headerTabs}
         </div>
         <div className={Styles['flex-header-right']}>
           {typeof creditsCount !== 'undefined' ? (
@@ -58,7 +58,7 @@ export class FlexHeader extends Component<FlexHeaderProps> {
           ) : (
             ''
           )}
-          {renderActions && renderActions()}
+          {headerActions}
         </div>
       </header>
     );
@@ -86,7 +86,7 @@ export const FlexHeaderTab: React.SFC<FlexHeaderTabProps> = props => {
       })}
     >
       {props.iconType && <Icon type={props.iconType} />}
-      {props.text && props.text}
+      {props.text}
     </div>
   );
 };

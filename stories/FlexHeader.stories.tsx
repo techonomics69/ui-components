@@ -10,18 +10,16 @@ import cn from '../src/utilities/classnames';
 
 const loaderStories = storiesOf('Flex Header', module);
 
-const renderActions = () => {
-  return (
-    <ButtonList>
-      <Button type="tertiary">
-        Cancel
-      </Button>
-      <Button className="btn btn-primary">
-        Update
-      </Button>
-    </ButtonList>
-  );
-}
+const renderActions = (
+  <ButtonList>
+    <Button type="tertiary">
+      Cancel
+    </Button>
+    <Button className="btn btn-primary">
+      Update
+    </Button>
+  </ButtonList>
+);
 
 const renderTabs = (num?: number, secondActive?: boolean) => {
   return (
@@ -34,44 +32,40 @@ const renderTabs = (num?: number, secondActive?: boolean) => {
   );
 }
 
-const buyCredits = () => {
-  return (
-    <ButtonList>
-      <Button type="tertiary">
-        Buy Credits
-      </Button>
-    </ButtonList>
+const buyCredits = (
+  <ButtonList>
+    <Button type="tertiary">
+      Buy Credits
+    </Button>
+  </ButtonList>
   );
-}
 
-const edit = () => {
-  return (
-    <ButtonList>
-      <Button type="primary" onDark>
-        Edit
-      </Button>
-    </ButtonList>
-  );
-}
+const edit = (
+  <ButtonList>
+    <Button type="primary" onDark>
+      Edit
+    </Button>
+  </ButtonList>
+);
 
 
 loaderStories.add('KANPE', () =>
-  <FlexHeader title="Title Goes Here" onClose={()=>{}} creditsCount="26" renderTabs={renderTabs.bind(this, 2)} renderActions={buyCredits} />);
+  <FlexHeader title="Title Goes Here" onClose={()=>{}} creditsCount="26" headerTabs={renderTabs(2)} headerActions={buyCredits} />);
 
 loaderStories.add('KANPE - Second Tab Active', () => 
-  <FlexHeader title="Title Goes Here" onClose={()=>{}} creditsCount="26" renderTabs={renderTabs.bind(this, 2, true)} renderActions={buyCredits} />);
+  <FlexHeader title="Title Goes Here" onClose={()=>{}} creditsCount="26" headerTabs={renderTabs(2, true)} headerActions={buyCredits} />);
 
 loaderStories.add('KANPE - No Credits', () =>
-  <FlexHeader title="Title Goes Here" onClose={()=>{}} renderTabs={renderTabs.bind(this, 2)} />);
+  <FlexHeader title="Title Goes Here" onClose={()=>{}} headerTabs={renderTabs(2)} />);
 
 loaderStories.add('KANPE - Only one Tab. No secondary', () =>
-  <FlexHeader title="Title Goes Here" onClose={()=>{}} renderTabs={renderTabs.bind(this, 1)} creditsCount="26" />);
+  <FlexHeader title="Title Goes Here" onClose={()=>{}} headerTabs={renderTabs(1)} creditsCount="26" />);
 
 loaderStories.add('Image Library', () =>
   <FlexHeader title="Image Library" onClose={()=>{}} />);
 
 loaderStories.add('Email Preview', () =>
-  <FlexHeader title="Title Goes Here" onClose={()=>{}} renderActions={edit} />);
+  <FlexHeader title="Title Goes Here" onClose={()=>{}} headerActions={edit} />);
 
 loaderStories.add('Edit Code', () =>
-  <FlexHeader title="Email Code Module" onClose={()=>{}} tooltipText="sup" renderActions={renderActions} />);
+  <FlexHeader title="Email Code Module" onClose={()=>{}} tooltipText="sup" headerActions={renderActions} />);

@@ -16,7 +16,7 @@ export interface FullScreenModelProps extends ModalProps {
   onClose?: (event: any) => void;
   modalContainer?: Element;
   renderHeaderActions?: () => React.ReactNode;
-  renderTabs?: () => React.ReactNode;
+  headerTabs?: React.ReactNode;
   title: string;
   tooltipText?: string;
 }
@@ -43,11 +43,13 @@ export class FullscreenModal extends Component<FullScreenModelProps> {
       modalContainer,
       onClose,
       renderHeaderActions,
-      renderTabs,
+      headerTabs,
       title,
       tooltipText,
       ...attributes
     } = this.props;
+
+    const headerActions = renderHeaderActions && renderHeaderActions();
 
     return ReactDOM.createPortal(
       <div
@@ -60,11 +62,11 @@ export class FullscreenModal extends Component<FullScreenModelProps> {
         {...attributes}
       >
         <FlexHeader
+          headerActions={headerActions}
+          headerTabs={headerTabs}
           onClose={onClose}
-          renderActions={renderHeaderActions}
           title={title}
           tooltipText={tooltipText}
-          renderTabs={renderTabs}
         />
         <div className={cn('modal-content', { 'has-padding': hasPadding })}>
           {children}
