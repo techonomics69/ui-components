@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, PureComponent, SFC } from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from './button';
 import { ButtonList } from './button-list';
@@ -6,6 +6,7 @@ import Counter from './counter';
 import { Icon } from './icon';
 
 import Styles from './styles/flex-header.module.scss';
+import { IconType } from './types/icons';
 import cn from './utilities/classnames';
 
 export interface FlexHeaderProps {
@@ -65,3 +66,27 @@ export class FlexHeader extends Component<FlexHeaderProps> {
 }
 
 export default FlexHeader;
+
+export const FlexHeaderTabs: React.SFC<{}> = props => {
+  return <div className={Styles['flex-header-tabs']}>{props.children}</div>;
+};
+
+export interface FlexHeaderTabProps {
+  iconType?: IconType;
+  isActive?: boolean;
+  text: string;
+  onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+}
+export const FlexHeaderTab: React.SFC<FlexHeaderTabProps> = props => {
+  return (
+    <div
+      onClick={props.onClick}
+      className={cn(Styles['flex-header-tab'], {
+        [Styles['is-active']]: !!props.isActive,
+      })}
+    >
+      {props.iconType && <Icon type={props.iconType} />}
+      {props.text && props.text}
+    </div>
+  );
+};
