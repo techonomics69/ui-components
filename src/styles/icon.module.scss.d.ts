@@ -1,5 +1,6 @@
 export const sgIcon: string;
 export const isSize20: string;
+export const isSize24: string;
 export const isSize30: string;
 export const isSize40: string;
 export const isSize60: string;
@@ -50,6 +51,7 @@ export const sgIconList: string;
 export const sgIconLocked: string;
 export const sgIconMail: string;
 export const sgIconMailSearch: string;
+export const sgIconMcPreview: string;
 export const sgIconMobileView: string;
 export const sgIconPencil: string;
 export const sgIconPeople: string;

@@ -308,6 +308,12 @@
   }
 }
 
+.sg-icon-mc-preview {
+  &::before {
+    content: $icon-mc-preview;
+  }
+}
+
 .sg-icon-mobile-view {
   &::before {
     content: $icon-mobile-view;
