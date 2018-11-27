@@ -178,10 +178,16 @@ $btn-selectable-color: $slate-80;
   &:hover {
     color: $btn-tertiary-color-hover;
   }
-  &.has-badge .badge {
+
+  &:active,
+  &.is-active {
+    @include btn-shadow;
+  }
+  &.has-badge :global(.badge) {
     background-color: $btn-tertiary-badge-bg;
   }
 }
+
 .btn-danger {
   color: $btn-danger-color;
   background-color: $btn-danger-bg;
