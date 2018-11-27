@@ -1,0 +1,120 @@
+.flex-header {
+  display: grid;
+  color: #fff;
+  background: #21394f;
+  height: 70px;
+  grid-template-columns: 1.4fr 0.6fr;
+
+  :global(.counter) {
+    margin: 0 27px;
+    color: #fff;
+    :global(.counter-bubble) {
+      color: #294661;
+      background: #fff;
+    }
+  }
+}
+
+.flex-header > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-header-right {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  min-width: 400px;
+  padding-right: 27px;
+}
+
+.flex-header-action {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  color: currentColor;
+  cursor: pointer;
+
+  &:hover {
+    color: currentColor;
+  }
+  :global(.sg-icon) {
+    font-size: 20px;
+  }
+}
+
+.flex-header-title {
+  position: relative;
+  padding: 0 27px;
+
+  &:before {
+    position: absolute;
+    top: -27px;
+    left: 0;
+    display: block;
+    height: 70px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    content: '';
+  }
+
+  h3 {
+    margin: 0;
+    color: currentColor;
+  }
+  :global(.sg-icon) {
+    margin-left: 5px;
+    font-size: 13px;
+  }
+}
+
+.flex-header-tabs {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 27px;
+}
+
+.flex-header-tab {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70px;
+  padding: 0 27px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  color: #7f90a0;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
+  &:hover {
+    color: currentColor;
+    opacity: 1;
+  }
+  &:last-of-type {
+    border-left: 0;
+  }
+  &:only-of-type {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  &.is-active {
+    color: #fff;
+    background: #394f64;
+    opacity: 1;
+  }
+
+  :global(i) {
+    position: relative;
+    top: -1px;
+    margin-right: 13px;
+  }
+}

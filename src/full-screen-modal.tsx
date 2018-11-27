@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
+
+import FlexHeader from './flexHeader';
 import { Icon } from './icon';
 
 import cn from './utilities/classnames';
 import { ModalProps, modalWillReceiveProps } from './utilities/modals';
 
 import Styles from './styles/fullscreen-modal.module.scss';
-
 export interface FullScreenModelProps extends ModalProps {
   children?: React.ReactNode;
   className?: string;
@@ -15,6 +16,7 @@ export interface FullScreenModelProps extends ModalProps {
   onClose?: (event: any) => void;
   modalContainer?: Element;
   renderHeaderActions?: () => React.ReactNode;
+  renderTabs?: () => React.ReactNode;
   title: string;
   tooltipText?: string;
 }
@@ -41,6 +43,7 @@ export class FullscreenModal extends Component<FullScreenModelProps> {
       modalContainer,
       onClose,
       renderHeaderActions,
+      renderTabs,
       title,
       tooltipText,
       ...attributes
@@ -56,21 +59,13 @@ export class FullscreenModal extends Component<FullScreenModelProps> {
         )}
         {...attributes}
       >
-        <header className={Styles['modal-fullscreen-header']}>
-          <a className={Styles['modal-close']} onClick={onClose}>
-            <Icon type="x" />
-          </a>
-
-          <h2>
-            {title}
-            {tooltipText && (
-              <span data-tooltip={tooltipText} data-tooltip-pos="down">
-                <Icon type="info-circle" />
-              </span>
-            )}
-          </h2>
-          {renderHeaderActions && renderHeaderActions()}
-        </header>
+        <FlexHeader
+          onClose={onClose}
+          renderActions={renderHeaderActions}
+          title={title}
+          tooltipText={tooltipText}
+          renderTabs={renderTabs}
+        />
         <div className={cn('modal-content', { 'has-padding': hasPadding })}>
           {children}
         </div>
