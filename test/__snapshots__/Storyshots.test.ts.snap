@@ -3333,7 +3333,7 @@ exports[`Storyshots Counter Counter 1`] = `
 >
   Credits
   <span
-    className="counter counter-bubble"
+    className="counter-bubble"
   >
     1000
   </span>
@@ -8567,6 +8567,414 @@ exports[`Storyshots FilterableList FilterableList with Two Input Fields and Cust
 </section>
 `;
 
+exports[`Storyshots Flex Header Edit Code 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Email Code Module
+        <span
+          data-tooltip="sup"
+          data-tooltip-pos="down"
+        >
+          <i
+            className="sg-icon sg-icon-info-circle"
+            onClick={undefined}
+            style={null}
+          />
+        </span>
+      </h3>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    
+    <div
+      className="btn-list"
+    >
+      <button
+        className="btn btn-tertiary"
+        disabled={false}
+        id={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="btn btn-primary btn btn-primary"
+        disabled={false}
+        id={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Update
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header Email Preview 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Title Goes Here
+      </h3>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    
+    <div
+      className="btn-list"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        id={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Edit
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header Image Library 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Image Library
+      </h3>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header KANPE - No Credits 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Title Goes Here
+      </h3>
+    </div>
+    <div
+      className="flex-header-tabs"
+    >
+      <div
+        className="flex-header-tab is-active"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        Run New Test
+      </div>
+      <div
+        className="flex-header-tab"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        View Test Results
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header KANPE - Only one Tab. No secondary 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Title Goes Here
+      </h3>
+    </div>
+    <div
+      className="flex-header-tabs"
+    >
+      <div
+        className="flex-header-tab is-active"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        Run New Test
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    <div
+      className="counter"
+    >
+      Credits
+      <span
+        className="counter-bubble"
+      >
+        26
+      </span>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header KANPE - Second Tab Active 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Title Goes Here
+      </h3>
+    </div>
+    <div
+      className="flex-header-tabs"
+    >
+      <div
+        className="flex-header-tab"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        Run New Test
+      </div>
+      <div
+        className="flex-header-tab is-active"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        View Test Results
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    <div
+      className="counter"
+    >
+      Credits
+      <span
+        className="counter-bubble"
+      >
+        26
+      </span>
+    </div>
+    <div
+      className="btn-list"
+    >
+      <button
+        className="btn btn-tertiary"
+        disabled={false}
+        id={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Buy Credits
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Flex Header KANPE 1`] = `
+<header
+  className="flex-header"
+>
+  <div>
+    <a
+      className="flex-header-action"
+      onClick={[Function]}
+    >
+      <i
+        className="sg-icon sg-icon-x"
+        onClick={undefined}
+        style={null}
+      />
+    </a>
+    <div
+      className="flex-header-title"
+    >
+      <h3>
+        Title Goes Here
+      </h3>
+    </div>
+    <div
+      className="flex-header-tabs"
+    >
+      <div
+        className="flex-header-tab is-active"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        Run New Test
+      </div>
+      <div
+        className="flex-header-tab"
+        onClick={undefined}
+      >
+        <i
+          className="sg-icon sg-icon-mail"
+          onClick={undefined}
+          style={null}
+        />
+        View Test Results
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex-header-right"
+  >
+    <div
+      className="counter"
+    >
+      Credits
+      <span
+        className="counter-bubble"
+      >
+        26
+      </span>
+    </div>
+    <div
+      className="btn-list"
+    >
+      <button
+        className="btn btn-tertiary"
+        disabled={false}
+        id={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Buy Credits
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
 exports[`Storyshots FullScreen Modal Fullscreen Modal 1`] = `
 <div>
   <button
@@ -8582,21 +8990,32 @@ exports[`Storyshots FullScreen Modal Fullscreen Modal 1`] = `
     className="modal-fullscreen is-open"
   >
     <header
-      className="modal-fullscreen-header"
+      className="flex-header"
     >
-      <a
-        className="modal-close"
-        onClick={[Function]}
+      <div>
+        <a
+          className="flex-header-action"
+          onClick={[Function]}
+        >
+          <i
+            className="sg-icon sg-icon-x"
+            onClick={undefined}
+            style={null}
+          />
+        </a>
+        <div
+          className="flex-header-title"
+        >
+          <h3>
+            Fullscreen Modal
+          </h3>
+        </div>
+      </div>
+      <div
+        className="flex-header-right"
       >
-        <i
-          className="sg-icon sg-icon-x"
-          onClick={undefined}
-          style={null}
-        />
-      </a>
-      <h2>
-        Fullscreen Modal
-      </h2>
+        
+      </div>
     </header>
     <div
       className="modal-content has-padding"
@@ -8624,52 +9043,63 @@ exports[`Storyshots FullScreen Modal Fullscreen Modal with renderProps 1`] = `
     className="modal-fullscreen is-open"
   >
     <header
-      className="modal-fullscreen-header"
+      className="flex-header"
     >
-      <a
-        className="modal-close"
-        onClick={[Function]}
-      >
-        <i
-          className="sg-icon sg-icon-x"
-          onClick={undefined}
-          style={null}
-        />
-      </a>
-      <h2>
-        With Render Props
-        <span
-          data-tooltip="here is a tooltip"
-          data-tooltip-pos="down"
+      <div>
+        <a
+          className="flex-header-action"
+          onClick={[Function]}
         >
           <i
-            className="sg-icon sg-icon-info-circle"
+            className="sg-icon sg-icon-x"
             onClick={undefined}
             style={null}
           />
-        </span>
-      </h2>
+        </a>
+        <div
+          className="flex-header-title"
+        >
+          <h3>
+            With Render Props
+            <span
+              data-tooltip="here is a tooltip"
+              data-tooltip-pos="down"
+            >
+              <i
+                className="sg-icon sg-icon-info-circle"
+                onClick={undefined}
+                style={null}
+              />
+            </span>
+          </h3>
+        </div>
+      </div>
       <div
-        className="btn-list"
+        className="flex-header-right"
       >
-        <button
-          className="btn btn-primary btn-on-dark"
-          disabled={false}
-          id={undefined}
-          onClick={[Function]}
-          type="button"
+        
+        <div
+          className="btn-list"
         >
-          Confirm
-        </button>
-        <button
-          className="btn btn-secondary btn-on-dark"
-          disabled={false}
-          id={undefined}
-          onClick={[Function]}
-          type="button"
-        >
-          Cancel
-        </button>
+          <button
+            className="btn btn-primary btn-on-dark"
+            disabled={false}
+            id={undefined}
+            onClick={[Function]}
+            type="button"
+          >
+            Confirm
+          </button>
+          <button
+            className="btn btn-secondary btn-on-dark"
+            disabled={false}
+            id={undefined}
+            onClick={[Function]}
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
       </div>
     </header>
     <div
@@ -8825,21 +9255,32 @@ exports[`Storyshots Image Library with initial image that does not exist in the 
   className="modal-fullscreen is-open"
 >
   <header
-    className="modal-fullscreen-header"
+    className="flex-header"
   >
-    <a
-      className="modal-close"
-      onClick={[Function]}
+    <div>
+      <a
+        className="flex-header-action"
+        onClick={[Function]}
+      >
+        <i
+          className="sg-icon sg-icon-x"
+          onClick={undefined}
+          style={null}
+        />
+      </a>
+      <div
+        className="flex-header-title"
+      >
+        <h3>
+          Image Library
+        </h3>
+      </div>
+    </div>
+    <div
+      className="flex-header-right"
     >
-      <i
-        className="sg-icon sg-icon-x"
-        onClick={undefined}
-        style={null}
-      />
-    </a>
-    <h2>
-      Image Library
-    </h2>
+      
+    </div>
   </header>
   <div
     className="modal-content"
@@ -9004,21 +9445,32 @@ exports[`Storyshots Image Library with upload alert, no images 1`] = `
   className="modal-fullscreen is-open"
 >
   <header
-    className="modal-fullscreen-header"
+    className="flex-header"
   >
-    <a
-      className="modal-close"
-      onClick={[Function]}
+    <div>
+      <a
+        className="flex-header-action"
+        onClick={[Function]}
+      >
+        <i
+          className="sg-icon sg-icon-x"
+          onClick={undefined}
+          style={null}
+        />
+      </a>
+      <div
+        className="flex-header-title"
+      >
+        <h3>
+          Image Library
+        </h3>
+      </div>
+    </div>
+    <div
+      className="flex-header-right"
     >
-      <i
-        className="sg-icon sg-icon-x"
-        onClick={undefined}
-        style={null}
-      />
-    </a>
-    <h2>
-      Image Library
-    </h2>
+      
+    </div>
   </header>
   <div
     className="modal-content"
@@ -9134,21 +9586,32 @@ exports[`Storyshots Image Library without upload alert, with images 1`] = `
   className="modal-fullscreen is-open"
 >
   <header
-    className="modal-fullscreen-header"
+    className="flex-header"
   >
-    <a
-      className="modal-close"
-      onClick={[Function]}
+    <div>
+      <a
+        className="flex-header-action"
+        onClick={[Function]}
+      >
+        <i
+          className="sg-icon sg-icon-x"
+          onClick={undefined}
+          style={null}
+        />
+      </a>
+      <div
+        className="flex-header-title"
+      >
+        <h3>
+          Image Library
+        </h3>
+      </div>
+    </div>
+    <div
+      className="flex-header-right"
     >
-      <i
-        className="sg-icon sg-icon-x"
-        onClick={undefined}
-        style={null}
-      />
-    </a>
-    <h2>
-      Image Library
-    </h2>
+      
+    </div>
   </header>
   <div
     className="modal-content"
