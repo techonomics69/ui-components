@@ -59,7 +59,7 @@ export class TextArea extends Component {
                 'is-scrollable': scrollable,
             }) },
             React.createElement("label", { className: cn('textarea-label', Styles['textarea-label']), htmlFor: id }, label),
-            React.createElement("textarea", Object.assign({ id: id, value: value, onChange: handleChange, onFocus: this.setFocused, onBlur: this.setBlurred, disabled: disabled, style: { height } }, attributes)),
+            React.createElement("textarea", Object.assign({ className: cn('textarea-input', Styles['textarea-input']), id: id, value: value, onChange: handleChange, onFocus: this.setFocused, onBlur: this.setBlurred, disabled: disabled, style: { height } }, attributes)),
             React.createElement("textarea", { value: value, style: { height: 0, visibility: 'hidden', border: 0 }, ref: textarea => (this.textareaMeasurer = textarea), readOnly: true }),
             info && (React.createElement("span", { className: cn('textarea-info', Styles['textarea-info'], {
                     [Styles['is-error']]: error,
