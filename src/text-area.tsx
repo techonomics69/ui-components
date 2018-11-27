@@ -36,7 +36,6 @@ export class TextArea extends Component<
   // was causing some weirdness.
   public textareaMeasurer: HTMLTextAreaElement;
 
-
   // The textarea defaults to 25px high which may be too small to contain a long initial value.
   // so reset height after the initial mount, when we can accurately measure the size.
   public componentDidMount() {
@@ -113,6 +112,7 @@ export class TextArea extends Component<
           {label}
         </label>
         <textarea
+          className={cn('textarea-input', Styles['textarea-input'])}
           id={id}
           value={value}
           onChange={handleChange}

@@ -17942,6 +17942,8 @@ exports[`Storyshots Text Area Disabled 1`] = `null`;
 
 exports[`Storyshots Text Area Error 1`] = `null`;
 
+exports[`Storyshots Text Area Error with Info 1`] = `null`;
+
 exports[`Storyshots Text Area Information Message 1`] = `null`;
 
 exports[`Storyshots Text Area Required 1`] = `null`;

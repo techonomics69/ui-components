@@ -94,6 +94,21 @@ stories.add('Error', () => (
   </TextAreaContainer>
 ));
 
+stories.add('Error with Info', () => (
+  <TextAreaContainer>
+    {(value, handleChange) => (
+      <TextArea
+        id="textarea-error"
+        label="Label"
+        value={value}
+        onChange={handleChange}
+        error
+        info="Text input is wrong somehow."
+      />
+    )}
+  </TextAreaContainer>
+));
+
 stories.add('Disabled', () => (
   <TextAreaContainer>
     {(value, handleChange) => (

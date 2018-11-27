@@ -78,8 +78,14 @@ textarea {
   }
 
   &.is-error {
-    border-bottom-color: $ron-burgundy;
-    box-shadow: $ron-burgundy 0 1px 0;
+    .textarea-input {
+      border-bottom-color: $ron-burgundy;
+      box-shadow: $ron-burgundy 0 1px 0;
+    }
+
+    .textarea-info {
+      color: $ron-burgundy;
+    }
   }
 
   &.is-scrollable {
