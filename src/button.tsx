@@ -7,7 +7,12 @@ import { IconType } from './types/icons';
 import cn from './utilities/classnames';
 import withNativeProps from './withNativeProps';
 
-export type ButtonType = 'primary' | 'secondary' | 'danger' | 'group-item';
+export type ButtonType =
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'danger'
+  | 'group-item';
 
 export interface AllButtonProps {
   disabled?: boolean;
