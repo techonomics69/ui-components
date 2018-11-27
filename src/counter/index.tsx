@@ -15,11 +15,11 @@ export const Counter: React.SFC<CounterProps> = ({
   ...attributes
 }) => (
   <div
-    className={cn(Styles.counter, className, Styles[`counter`])}
+    className={cn('counter', Styles.counter, className, Styles[`counter`])}
     {...attributes}
   >
     {text}
-    <span className={cn(Styles.counter, className, Styles[`counter-bubble`])}>
+    <span className={cn('counter-bubble', Styles[`counter-bubble`])}>
       {count}
     </span>
   </div>
