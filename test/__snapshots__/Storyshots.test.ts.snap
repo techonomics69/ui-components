@@ -9113,6 +9113,109 @@ exports[`Storyshots FullScreen Modal Fullscreen Modal with renderProps 1`] = `
 </div>
 `;
 
+exports[`Storyshots Fullscreen Modal Title With data and descriptors 1`] = `
+<div
+  className="titleContainer"
+>
+  <h1>
+    check out this cool title
+  </h1>
+  <div
+    className="testInfo"
+  >
+    <p
+      className="small"
+    >
+      <strong>
+        It has a date
+      </strong>
+    </p>
+    <p
+      className="small"
+    >
+      The date is
+       
+      Dec. 20th, 2018, 4:45 PM MST
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fullscreen Modal Title inside of fullscreen modal 1`] = `
+<div>
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    id={undefined}
+    onClick={[Function]}
+    type="button"
+  >
+    Open Modal
+  </button>
+  <div
+    className="modal-fullscreen is-open"
+  >
+    <header
+      className="flex-header"
+    >
+      <div>
+        <a
+          className="flex-header-action"
+          onClick={[Function]}
+        >
+          <i
+            className="sg-icon sg-icon-x"
+            onClick={undefined}
+            style={null}
+          />
+        </a>
+        <div
+          className="flex-header-title"
+        >
+          <h3>
+            Fullscreen Modal
+          </h3>
+        </div>
+      </div>
+      <div
+        className="flex-header-right"
+      >
+        
+      </div>
+    </header>
+    <div
+      className="modal-content has-padding"
+    >
+      <div
+        className="titleContainer"
+      >
+        <h1>
+          check out this cool title
+        </h1>
+        <div
+          className="testInfo"
+        >
+          <p
+            className="small"
+          >
+            <strong>
+              It has a date
+            </strong>
+          </p>
+          <p
+            className="small"
+          >
+            The date is
+             
+            Dec. 20th, 2018, 4:45 PM MST
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Grid 4/8 Column Config 1`] = `
 <div>
   <div

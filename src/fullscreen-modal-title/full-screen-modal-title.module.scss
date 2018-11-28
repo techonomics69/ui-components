@@ -1,0 +1,17 @@
+.titleContainer {
+  margin: 35px 105px 27px 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1,
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.testInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
