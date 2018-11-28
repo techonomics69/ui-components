@@ -17,7 +17,7 @@ const filterControlStyle = {
 const inlineClearButtonStyle = {
   display: 'flex',
   flexDirection: 'column' as 'column',
-  justifyContent: 'center' as 'center',
+  justifyContent: 'flex-end' as 'flex-end',
   paddingLeft: '20px',
 };
 

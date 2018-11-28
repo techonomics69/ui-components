@@ -8169,7 +8169,7 @@ exports[`Storyshots FilterableList FilterableList with Clear Button 1`] = `
           Object {
             "display": "flex",
             "flexDirection": "column",
-            "justifyContent": "center",
+            "justifyContent": "flex-end",
             "paddingLeft": "20px",
           }
         }
@@ -8274,7 +8274,7 @@ exports[`Storyshots FilterableList FilterableList with Clear Button in Header 1`
           Object {
             "display": "flex",
             "flexDirection": "column",
-            "justifyContent": "center",
+            "justifyContent": "flex-end",
             "paddingLeft": "20px",
           }
         }
@@ -8483,7 +8483,7 @@ exports[`Storyshots FilterableList FilterableList with Two Input Fields and Cust
           Object {
             "display": "flex",
             "flexDirection": "column",
-            "justifyContent": "center",
+            "justifyContent": "flex-end",
             "paddingLeft": "20px",
           }
         }
