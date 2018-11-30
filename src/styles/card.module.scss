@@ -140,6 +140,16 @@
     margin-bottom: 0;
     font-size: 20px;
     line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    :global .input-checkbox-wrap {
+      margin-bottom: 0;
+
+      .input-checkbox-label {
+        font-size: 20px;
+      }
+    }
   }
 
   :global {

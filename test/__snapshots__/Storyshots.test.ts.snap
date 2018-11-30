@@ -2273,6 +2273,114 @@ exports[`Storyshots Card Card with Badge 1`] = `
 </div>
 `;
 
+exports[`Storyshots Card Card with Checkbox (Inline) 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-4"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+  >
+    <div
+      className="card is-inline is-thin"
+    >
+      <h2
+        className="card-title"
+      >
+        <div
+          className="input-checkbox-wrap"
+        >
+          <input
+            checked={false}
+            disabled={undefined}
+            id="checkbox-1"
+            onChange={[Function]}
+            type="checkbox"
+            value={undefined}
+          />
+          <label
+            className="input-checkbox-label"
+            htmlFor="checkbox-1"
+          >
+            SMTP Relay
+          </label>
+        </div>
+      </h2>
+      <span
+        className="small"
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "#9e9e9e",
+            "display": "flex",
+          }
+        }
+      >
+        5 credits
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Card with Disabled Checkbox (Inline) 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-4"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+  >
+    <div
+      className="card is-inline is-thin"
+    >
+      <h2
+        className="card-title"
+      >
+        <div
+          className="input-checkbox-wrap"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="checkbox-1"
+            onChange={[Function]}
+            type="checkbox"
+            value={undefined}
+          />
+          <label
+            className="input-checkbox-label"
+            htmlFor="checkbox-1"
+          >
+            SMTP Relay
+          </label>
+        </div>
+      </h2>
+      <span
+        className="small"
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "#9e9e9e",
+            "display": "flex",
+          }
+        }
+      >
+        5 credits
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Card Card with Icon (Centered) 1`] = `
 <div
   className="row"

@@ -14,7 +14,7 @@ export interface CardProps {
   centered?: boolean;
   thin?: boolean;
   inline?: boolean;
-  title?: string;
+  title?: React.ReactNode;
   body?: string;
   className?: string;
   badge?:
