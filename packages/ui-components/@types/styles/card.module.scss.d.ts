@@ -15,6 +15,7 @@ export const isModule: string;
 export const sgIcon: string;
 export const isSelected: string;
 export const cardIcon: string;
+export const inputCheckboxLabel: string;
 export const badge: string;
 export const cardUnsubPrefs: string;
 export const sgIconCheckCircle: string;
