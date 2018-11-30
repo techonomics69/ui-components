@@ -2783,6 +2783,32 @@ exports[`Storyshots CenterModal CenterModal without footer or header, with x 1`]
 </div>
 `;
 
+exports[`Storyshots Checkbox Checkbox with Info 1`] = `
+<div
+  className="input-checkbox-wrap"
+>
+  <input
+    checked={false}
+    disabled={undefined}
+    id="checkbox-with-info"
+    onChange={[Function]}
+    type="checkbox"
+    value={undefined}
+  />
+  <label
+    className="input-checkbox-label"
+    htmlFor="checkbox-with-info"
+  >
+    Client
+    <span
+      className="input-checkbox-info"
+    >
+      OS
+    </span>
+  </label>
+</div>
+`;
+
 exports[`Storyshots Checkbox Disabled Checkbox 1`] = `
 <div
   className="input-checkbox-wrap"

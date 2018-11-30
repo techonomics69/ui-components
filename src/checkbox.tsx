@@ -5,6 +5,7 @@ export interface CheckboxProps {
   checked: boolean;
   disabled?: boolean;
   id: string;
+  info?: string;
   label?: string;
   children?: any;
   onChange: (event: any) => void;
@@ -15,6 +16,7 @@ export const Checkbox: React.SFC<CheckboxProps> = ({
   checked,
   disabled,
   id,
+  info,
   label,
   children,
   onChange,
@@ -37,6 +39,13 @@ export const Checkbox: React.SFC<CheckboxProps> = ({
         htmlFor={id}
       >
         {children ? children : label}
+        {info ? (
+          <span
+            className={cn('input-checkbox-info', Styles['input-checkbox-info'])}
+          >
+            {info}
+          </span>
+        ) : null}
       </label>
     </div>
   );
