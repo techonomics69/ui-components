@@ -35,7 +35,7 @@ export const Tabs = (_a) => {
         }) }, attributes), map(children, (tab, index) => {
         return React.cloneElement(tab, {
             onClick(event) {
-                const { children: label, onClick } = tab.props;
+                const { children: label, onClick = () => { } } = tab.props;
                 onClick(event);
                 onChange(event, label, index);
             },
