@@ -71,7 +71,7 @@ export const Tabs: React.SFC<any> = ({
       {map(children, (tab: React.ReactElement<any>, index) => {
         return React.cloneElement(tab, {
           onClick(event: any) {
-            const { children: label, onClick } = tab.props;
+            const { children: label, onClick = () => {} } = tab.props;
             onClick(event);
             onChange(event, label, index);
           },
