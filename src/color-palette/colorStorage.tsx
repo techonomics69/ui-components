@@ -41,19 +41,29 @@ const storeColorsInLocalStorage = (colors: ColorStore) => {
   localStorage.setItem(storageKey, JSON.stringify(colors));
 };
 
+const hasStorage = () => {
+  try {
+    localStorage.setItem('test', 'test');
+    localStorage.removeItem('test');
+    return true;
+  } catch (exception) {
+    return false;
+  }
+};
 class ColorStorage extends Component<
   ColorStorageProps,
   { colors: ColorStore }
 > {
+  public hasLocalStorage: boolean;
   constructor(props: ColorStorageProps) {
     super(props);
+    this.hasLocalStorage = hasStorage();
     // tslint:disable-next-line:no-unused-expression
-    localStorage && upgradeSavedColorStorage();
+    this.hasLocalStorage && upgradeSavedColorStorage();
 
     this.state = {
       colors: getColorsFromLocalStorage(),
     };
-
     this.addColor = this.addColor.bind(this);
     this.removeColor = this.removeColor.bind(this);
   }
