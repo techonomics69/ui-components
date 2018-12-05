@@ -62,7 +62,7 @@ class ColorStorage extends Component<
     this.hasLocalStorage && upgradeSavedColorStorage();
 
     this.state = {
-      colors: getColorsFromLocalStorage(),
+      colors: this.hasLocalStorage && getColorsFromLocalStorage(),
     };
     this.addColor = this.addColor.bind(this);
     this.removeColor = this.removeColor.bind(this);
@@ -81,7 +81,9 @@ class ColorStorage extends Component<
   }
 
   public saveState() {
-    storeColorsInLocalStorage(this.state.colors);
+    if (this.hasLocalStorage) {
+      storeColorsInLocalStorage(this.state.colors);
+    }
   }
 
   public render() {
